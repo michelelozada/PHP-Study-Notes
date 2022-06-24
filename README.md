@@ -22,7 +22,7 @@
 | 16 | [Escopo de variáveis](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/16-Escopo-de-variaveis.php) |
 | 17 | [Funções de string](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/17-Funcoes-de-string.php) |
 | 18 | [Funções matemáticas](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/18-Funcoes-matematicas.php) |
-| 19 | [Arrays indexados](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/19-19-Arrays-indexados.php) |
+| 19 | [Arrays indexados](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/19-Arrays-indexados.php) |
 
 &nbsp;   
 :bookmark_tabs: **Fonte consultada:**  
