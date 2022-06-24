@@ -23,6 +23,9 @@
 | 17 | [Funções de string](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/17-Funcoes-de-string.php) |
 | 18 | [Funções matemáticas](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/18-Funcoes-matematicas.php) |
 | 19 | [Arrays indexados](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/19-Arrays-indexados.php) |
+| 20 | [Arrays associativos](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/20-Arrays-associativos.php) |
+| 21 | [Arrays multidimensionais](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/21-Arrays-multidimensionais.php) |
+| 22 | [Iterando elementos de um array](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/22-Iterando-elementos-array.php) |
 
 &nbsp;   
 :bookmark_tabs: **Fonte consultada:**  
