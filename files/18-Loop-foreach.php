@@ -1,5 +1,5 @@
 /*
- *  Iterando elementos de um array  
+ *  Estrutura de repetição - Loop foreach 
  *  Repositório: Lógica de Programação e Algoritmos em PHP
  *  GitHub: @michelelozada
  */
@@ -11,8 +11,8 @@
 	
 $pedrasPreciosas = ['rubi', 'esmeralda', 'turmalina', 'jade', 'opala', 'safira', 'turquesa', 'ametista'];
 					
-foreach ($pedrasPreciosas as $gemstones){
-	echo $gemstones . '\n';
+foreach ($pedrasPreciosas as $gemstone){
+	echo $gemstone . "\n";
 }
 	
 	
@@ -41,8 +41,8 @@ $coresPedras = [
 			'ametista' => 'violeta'
 ];
 
-foreach($coresPedras as $gemStone => $gemColors){
-	echo ucfirst($gemStone) . ' é uma pedra preciosa de cor ' . $gemColors . ".\n";		
+foreach($coresPedras as $key => $value){
+	echo ucfirst($key) . ' é uma pedra preciosa de cor ' . $value . ".\n";		
 }
 
 /* Retorna:
@@ -60,26 +60,26 @@ Ametista é uma pedra preciosa de cor violeta.
 
 //3. Exemplo do uso de foreach em um array multidimensional:
 
-$gradeCurricular = [
-	['Artes','80'], 
-	['Ciências','120'],
-	['Geografia','80'],
-	['História','80'],
-];
-
-foreach($gradeCurricular as $matriz){
-	foreach($matriz as $novaMatriz){
-		echo $novaMatriz . "\n";
+$disciplinas = array (
+    array("História","sala 04","09:00"),
+    array("Geografia","sala 12","10:00"),
+    array("Matemática ","sala 07","11:00")
+);
+ 
+foreach($disciplinas as $rnumber => $disciplina) {
+	foreach($disciplina as $cnumber => $value) {
+		echo "O índice [" . $rnumber . "][" . $cnumber . "] do array contém: " . $value . ".\n";
 	}
 }
-
+ 
 /* Retorna:
-Artes
-80
-Ciências
-120
-Geografia
-80
-História
-80
+O índice [0][0] do array contém: História
+O índice [0][1] do array contém: sala 04
+O índice [0][2] do array contém: 09:00
+O índice [1][0] do array contém: Geografia
+O índice [1][1] do array contém: sala 12
+O índice [1][2] do array contém: 10:00
+O índice [2][0] do array contém: Matemática 
+O índice [2][1] do array contém: sala 07
+O índice [2][2] do array contém: 11:00
 */

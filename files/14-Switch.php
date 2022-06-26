@@ -33,5 +33,6 @@ switch($conceito){
 		$faixa2 = '4.4';
 		break;
 }	
+echo 'O conceito ' . $conceito . ' corresponde à faixa de notas compreendidas entre ' . $faixa1 . ' e '. $faixa2 .'.';
 
-// Retorna: O conceito C corresponde à faixa de notas compreendidas entre 5.0 a 6.9.
+# Retorna: O conceito C corresponde à faixa de notas compreendidas entre 5.0 a 6.9.
