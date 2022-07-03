@@ -57,3 +57,10 @@ echo str_replace ('um gigantesco passo para a Humanidade','one giant leap for Ma
 echo substr($citacao,31); # um gigantesco passo para a Humanidade
 echo substr($citacao,-12); # a Humanidade
 echo substr($citacao,-34,16); # gigantesco passo
+
+
+// 11 - Formatação de um número: função number_format()
+$divisao = 1900/3;
+echo $divisao; # Retorna: 633.33333333333
+echo number_format($divisao, 2); # 633.33
+echo number_format($divisao, 2, ','); # 633,33

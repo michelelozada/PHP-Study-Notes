@@ -23,9 +23,11 @@
 | 17 | [Estrutura de repetição - Loop do-while](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/17-Loop-do-while.php) |
 | 18 | [Estrutura de repetição - Loop foreach](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/18-Loop-foreach.php) |
 | 19 | [Escopo de variáveis](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/19-Escopo-de-variaveis.php) |
-| 20 | [Funções de string](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/20-Funcoes-de-string.php) |
-| 21 | [Funções de arrays](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/21-Funcoes-de-arrays.php) |
-| 22 | [Funções matemáticas](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/22-Funcoes-matematicas.php) |
+| 20 | [Funções](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/20-Funcoes.php) |
+| 21 | [Funções de string](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/21-Funcoes-de-string.php) |
+| 22 | [Funções de arrays](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/22-Funcoes-de-arrays.php) |
+| 23 | [Funções matemáticas](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/23-Funcoes-matematicas.php) |
+| 24 | [Funções de data e hora](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/24-Funcoes-data-hora.php) |
 
 &nbsp;   
 :bookmark_tabs: **Fonte consultada:**  
