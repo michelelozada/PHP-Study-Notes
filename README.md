@@ -4,30 +4,30 @@
 
 | Índice | Descrição |
 | :---:  | :--- |
-| 01 | [Tipos de variáveis](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/01-Tipos-de-variaveis.php) |
-| 02 | [Testando variáveis](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/02-Testando-variaveis.php) |
-| 03 | [Operadores aritméticos](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/03-Operadores-aritmeticos.php) |
-| 04 | [Operadores de atribuição](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/04-Operadores-de-atribuicao.php) |
-| 05 | [Operadores relacionais](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/05-Operadores-relacionais.php) |
-| 06 | [Operadores lógicos](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/06-Operadores-logicos.php) |
-| 07 | [Operadores de incremento e decremento](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/07-Operadores-de-incremento-e-decremento.php) |
-| 08 | [Operadores de string](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/08-Operadores-de-string.php) |
-| 09 | [Arrays indexados](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/09-Arrays-indexados.php) |
-| 10 | [Arrays associativos](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/10-Arrays-associativos.php) |
-| 11 | [Arrays multidimensionais](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/11-Arrays-multidimensionais.php) |
-| 12 | [Estrutura de controle - If else e operador ternário](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/12-If-else-e-operador-ternario.php) |
-| 13 | [Estrutura de controle - Else if](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/13-Elseif.php) |
-| 14 | [Estrutura de controle - Switch](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/14-Switch.php) |
-| 15 | [Estrutura de repetição - Loop for](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/15-Loop-for.php) |
-| 16 | [Estrutura de repetição - Loop while](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/16-Loop-while.php) |
-| 17 | [Estrutura de repetição - Loop do-while](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/17-Loop-do-while.php) |
-| 18 | [Estrutura de repetição - Loop foreach](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/18-Loop-foreach.php) |
-| 19 | [Escopo de variáveis](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/19-Escopo-de-variaveis.php) |
-| 20 | [Funções](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/20-Funcoes.php) |
-| 21 | [Funções de string](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/21-Funcoes-de-string.php) |
-| 22 | [Funções de arrays](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/22-Funcoes-de-arrays.php) |
-| 23 | [Funções matemáticas](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/23-Funcoes-matematicas.php) |
-| 24 | [Funções de data e hora](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/24-Funcoes-data-hora.php) |
+| [01](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/01-Tipos-de-variaveis.php) | Tipos de variáveis |
+| [02](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/02-Testando-variaveis.php) | Testando variáveis |
+| [03](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/03-Operadores-aritmeticos.php) | Operadores aritméticos |
+| [04](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/04-Operadores-de-atribuicao.php) | Operadores de atribuição |
+| [05](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/05-Operadores-relacionais.php) | Operadores relacionais |
+| [06](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/06-Operadores-logicos.php) | Operadores lógicos |
+| [07](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/07-Operadores-de-incremento-e-decremento.php) | Operadores de incremento e decremento |
+| [08](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/08-Operadores-de-string.php) | Operadores de string |
+| [09](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/09-Arrays-indexados.php) | Arrays indexados     |
+| [10](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/10-Arrays-associativos.php) | Arrays associativos | 
+| [11](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/11-Arrays-multidimensionais.php) | Arrays multidimensionais |
+| [12](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/12-If-else-e-operador-ternario.php) | Estrutura de controle - If else e operador ternário | 
+| [13](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/13-Elseif.php) | Estrutura de controle - Else if |
+| [14](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/14-Switch.php) | Estrutura de controle - Switch |
+| [15](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/15-Loop-for.php) | Estrutura de repetição - Loop for |
+| [16](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/16-Loop-while.php) | Estrutura de repetição - Loop while |
+| [17](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/17-Loop-do-while.php) | Estrutura de repetição - Loop do-while |
+| [18](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/18-Loop-foreach.php) | Estrutura de repetição - Loop foreach |
+| [19](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/19-Escopo-de-variaveis.php) | Escopo de variáveis |
+| [20](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/20-Funcoes.php) | Funções |
+| [21](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/21-Funcoes-de-string.php) | Funções de string |
+| [22](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/22-Funcoes-de-arrays.php) | Funções de arrays |
+| [23](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/23-Funcoes-matematicas.php) | Funções matemáticas |
+| [24](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/24-Funcoes-data-hora.php) | Funções de data e hora |
 
 &nbsp;   
 :bookmark_tabs: **Fonte consultada:**  
