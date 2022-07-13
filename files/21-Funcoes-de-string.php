@@ -61,6 +61,11 @@ echo substr($citacao,-34,16); # gigantesco passo
 
 // 11 - Formatação de um número: função number_format()
 $divisao = 1900/3;
-echo $divisao; # Retorna: 633.33333333333
+echo $divisao; # Retorna: 633.33333333333 
 echo number_format($divisao, 2); # 633.33
-echo number_format($divisao, 2, ','); # 633,33
+// 1º parâmetro da função: variável; 2º: número de casas decimais a exibir
+	
+$preco = 2800000;
+$formatted_price = 'R$ ' . number_format($preco, 2, ',' , '.');
+// 1º parâmetro da função: variável; 2º: número de casas decimais a exibir; 3º: símbolo para separar casa decimal; 4º: símbolo para separar o milhar
+echo $formatted_price; # Retorna: R$ 2.800.000,00
