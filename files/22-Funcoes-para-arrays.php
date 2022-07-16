@@ -111,3 +111,20 @@ if(in_array('Curitiba',$endereco)){
     echo 'Não há chave correspondente ao valor informado.';
 }
 // Retorna: A chave corresponde ao valor informado é: cidade
+
+
+// 9. Misturando os elementos de um array: função shuffle()
+$nomes = ['Ana','Bia','Carla','Dani','Érica'];
+shuffle($nomes);
+print_r($nomes); 
+
+/* Retorna:
+Array
+(
+    [0] => Bia
+    [1] => Dani
+    [2] => Carla
+    [3] => Érica
+    [4] => Ana
+)
+*/

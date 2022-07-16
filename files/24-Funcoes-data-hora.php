@@ -48,9 +48,33 @@ echo $diaTexto  = strftime("%A"); # a full textual representation of the day, ba
 echo ucfirst(strftime('%A')) . ', ' . $diaNumerico . ' de ' . strftime("%B") . ' de ' . $ano . '.' ;
 # Retorna: Domingo, 3 de julho de 2022.
 
- 
 
-// 5. Determinando o intervalo de tempo entre duas datas informadas:
+// 5. Checando se uma data é válida ou não - função checkdate():
+
+//Sintaxe: checkdate(int $month, int $day, int $year): bool 
+
+$dia = 30;
+$mes = 2;
+$ano = 2022;
+if(checkdate($mes,$dia,$ano)){
+	echo ('Data válida!');	
+} else {
+	echo ('Esta data é inválida.'); 
+}
+// Retorna: Esta data é inválida.
+
+$dia = 29;
+$mes = 2;
+$ano = 2024;
+if(checkdate($mes,$dia,$ano)){
+	echo ('Data válida!');	
+} else {
+	echo ('Esta data é inválida'); 
+}
+// Retorna:Data válida! => (2024 será ano bissexto)
+
+ 
+// 6. Determinando o intervalo de tempo entre duas datas informadas:
 $data1 = new DateTime('2020-12-31'); # data mais antiga
 $data2 = new DateTime('2022-07-03'); # data mais recente
 $intervalo = $data1 ->diff($data2);
