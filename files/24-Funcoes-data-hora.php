@@ -7,7 +7,6 @@
 
 <?php 
 	
-	
 // 1. Utilizando a função getdate para recuperar informações de data e hora (irá retornar um array associativo):
 $agora = getdate();
 //print_r($agora);
@@ -50,8 +49,6 @@ echo ucfirst(strftime('%A')) . ', ' . $diaNumerico . ' de ' . strftime("%B") . '
 
 
 // 5. Checando se uma data é válida ou não - função checkdate():
-
-//Sintaxe: checkdate(int $month, int $day, int $year): bool 
 
 $dia = 30;
 $mes = 2;

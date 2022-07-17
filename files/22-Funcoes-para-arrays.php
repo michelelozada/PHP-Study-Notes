@@ -93,8 +93,7 @@ if(array_key_exists('cidade', $endereco)){
 	echo 'A chave informada existe no array.';
 }else {
 	echo 'A chave informada não existe no array.';
-}
-// Retorna: Esta chave existe no array.
+} # Retorna: Esta chave existe no array.
 
 
 // 8.  Procurando um valor em um array e retornando sua chave correspondente, caso encontrada: função array_search()
@@ -109,8 +108,7 @@ if(in_array('Curitiba',$endereco)){
 	echo 'A chave corresponde ao valor informado é: '. array_search('Curitiba',$endereco) . '.';
 }else{
     echo 'Não há chave correspondente ao valor informado.';
-}
-// Retorna: A chave corresponde ao valor informado é: cidade
+}  # Retorna: A chave corresponde ao valor informado é: cidade
 
 
 // 9. Misturando os elementos de um array: função shuffle()
@@ -128,3 +126,97 @@ Array
     [4] => Ana
 )
 */
+
+
+// 10. Combinando um ou mais arrays: função array_merge()
+
+# 10.1 - Combinando dois arrays associativos (note que elementos com a mesma chave são sobrescritos por elementos do array subsequente)
+$nomes1 = array(
+	'a' => 'Ana',
+	'b' => 'Bia',
+	'c' => 'Carla',
+	'd' => 'Dani',
+	'e' => 'Erica'
+);
+$nomes2 = array(
+	'a' => 'Alexandre',
+	'e' => 'Enzo',
+	'i' => 'Igor',
+	'o' => 'Otávio',
+	'u' => 'Ulisses'
+);
+
+$listaNomes = array_merge($nomes1, $nomes2); 
+print_r($listaNomes);
+
+/* Retorna:
+Array
+(
+    [a] => Alexandre
+    [b] => Bia
+    [c] => Carla
+    [d] => Dani
+    [e] => Enzo
+    [i] => Igor
+    [o] => Otávio
+    [u] => Ulisses
+) */
+
+
+# 10.2 - Combinando dois arrays indexados (elementos não são sobrescritos aqui)
+$nomes1 = array('Ana','Bia','Carla','Dani','Erica');
+$nomes2 = array('Alexandre','Enzo','Igor','Otávio','Ulisses');
+
+$listaNomes = array_merge($nomes1, $nomes2);
+
+print_r($listaNomes);
+/* Retorna:
+Array
+(
+    [0] => Ana
+    [1] => Bia
+    [2] => Carla
+    [3] => Dani
+    [4] => Erica
+    [5] => Alexandre
+    [6] => Enzo
+    [7] => Igor
+    [8] => Otávio
+    [9] => Ulisses
+) */
+
+
+// 11. Aplicando uma função a todos os elementos dos arrays fornecidos: função array_map() 
+
+# 11.1 - Exemplo:
+function soma2($n){
+    return ($n + 2);
+}
+
+$a = [1,2,3,4,5];
+$b = array_map('soma2',$a);
+print_r($b);
+
+/* Retorna: 
+Array
+(
+    [0] => 3
+    [1] => 4
+    [2] => 5
+    [3] => 6
+    [4] => 7
+) */
+
+# 11.2 - Exemplo:
+$a = ['ana','bia','carla','dani'];
+$b = array_map('ucfirst',$a);
+print_r($b);
+
+/* Retorna: 
+Array
+(
+    [0] => Ana
+    [1] => Bia
+    [2] => Carla
+    [3] => Dani
+) */
