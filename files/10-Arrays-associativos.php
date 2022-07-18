@@ -77,7 +77,22 @@ Array
 */
 
 
-// 6. Juntando os elementos de uma matriz numa string
-$string = implode(', ',$endereco);
+// 6. Juntando elementos da matriz acima numa string: função implode()
+$string = implode(', ',$endereco); // o primeiro parâmetro diz respeito ao separador
 echo $string;
 # Retorna: Rua Cleide Geronasso, 152, apartamento 2, Curitiba, PR
+
+
+// 7. Convertendo um array em uma string JSON: função json_encode() 
+$cadastro = array( 
+    "aluno"=>"Enzo Martins", 
+    array( 
+        "email"=>"enzo@email.com", 
+        "celular"=>"419999-9999"
+    ) 
+); 
+  
+$json = json_encode($cadastro); 
+  
+echo($json); 
+# Retorna: {"aluno":"Enzo Martins","0":{"email":"enzo@email.com","celular":"419999-9999"}} 
