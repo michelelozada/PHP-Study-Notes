@@ -30,7 +30,7 @@
 | [24](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/24-Funcoes-data-hora.php) | Funções de data e hora |
 
 &nbsp;   
-:bookmark_tabs: ** Referências consultadas para criação deste repositório:**  
+:bookmark_tabs: **Referências consultadas para criação deste repositório:**  
 [Documentação do PHP](https://www.php.net/manual/pt_BR/)  
 [Geek for Geeks](https://www.geeksforgeeks.org/)
 </div>
