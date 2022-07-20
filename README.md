@@ -13,7 +13,7 @@
 | [07](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/07-Operadores-de-incremento-e-decremento.php) | Operadores de incremento e decremento |
 | [08](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/08-Operadores-de-string.php) | Operadores de string |
 | [09](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/09-Arrays-indexados.php) | Arrays indexados     |
-| [10](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/10-Precedencia-dos-operadores.php) | Precedência dos operadores | 
+| [10](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/10-Precedencia-dos-operadores.md) | Precedência dos operadores | 
 | [11](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/11-Arrays-associativos.php) | Arrays associativos | 
 | [12](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/12-Arrays-multidimensionais.php) | Arrays multidimensionais |
 | [13](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/13-If-else-e-operador-ternario.php) | Estrutura de controle - If else e operador ternário | 
