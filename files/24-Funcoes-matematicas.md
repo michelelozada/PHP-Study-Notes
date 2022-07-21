@@ -1,10 +1,10 @@
-/*
- *  Funções matemáticas
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Funções matemáticas**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;    
+```php	
 <?php 
    
 // 1. Calcula uma base elevada à potência do expoente: função pow()
@@ -44,3 +44,4 @@ echo rand();
 // Gerando um número inteiro aleatório, porém dentro de um intervalo
 echo rand(1,10);
 # 1ª saída: 6 | 2ª saída: 9 | 3ª saída: 3
+```

@@ -1,10 +1,10 @@
-/*
- *  Estrutura de repetição - Loop foreach 
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-  
-  
+> **Estrutura de repetição - Loop foreach**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;       
+```php
 <?php   
 	
 //1. Exemplo do uso de foreach em um array indexado:
@@ -83,3 +83,4 @@ O índice [2][0] do array contém: Matemática
 O índice [2][1] do array contém: sala 07
 O índice [2][2] do array contém: 11:00
 */
+```

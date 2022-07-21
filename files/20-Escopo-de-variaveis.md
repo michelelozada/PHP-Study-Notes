@@ -1,10 +1,10 @@
-/*
- *  Escopo de variáveis
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Escopo de variáveis**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php
 <?php  
 
 // 1.
@@ -73,12 +73,13 @@ $b = 2;
 function soma2(){
 	$a = 4;
 	$b = 6;
-	global $a,$b;
-	echo $a + $b; 
+	global $a,$b;  //* ver nota abaixo
+	echo $a + $b;  //*
 }
 echo $a; # Retorna: 1
 echo $b; # 2
 soma2(); # 3
 
 
-//(*) Obs: as linhas 76 e 77 poderiam ser sintetizadas em: echo $GLOBALS['a'] + $GLOBALS['b'];
+//(*) Obs: as duas linhas destacadas poderiam ser sintetizadas em: echo $GLOBALS['a'] + $GLOBALS['b'];
+```

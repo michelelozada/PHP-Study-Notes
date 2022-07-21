@@ -1,10 +1,10 @@
-/*
- *  Estrutura de controle - If else e operador ternário
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Estrutura de controle - If else e operador ternário**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php
 <?php
 	
 // 1 - Utilizando a estrutura if-else: 
@@ -27,3 +27,4 @@ $media = 65;
 $status = ($media >= 70) ? 'Aluno(a) foi aprovado(a) no curso.': 'Aluno(a) terá de realizar o exame final.';
 echo $status;
 # Retorna: Aluno(a) terá de realizar o exame final.
+```

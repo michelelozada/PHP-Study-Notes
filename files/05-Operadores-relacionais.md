@@ -1,10 +1,10 @@
-/*
- *  Operadores relacionais
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
- 
- 
+> **Operadores relacionais**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;      
+```php
 <?php 
 	
 //1 - Igual a (==)
@@ -63,3 +63,4 @@ if($a === $b){  // valores e tipos são iguais
 } else{
 	echo 'As duas variáveis não são idênticas.';
 } # Retorna: As duas variáveis não são idênticas.
+```

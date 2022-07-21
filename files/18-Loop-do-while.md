@@ -1,10 +1,10 @@
-/*
- *  Estrutura de repetição - Loop do-while
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Estrutura de repetição - Loop do-while**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php
 <?php
 	
 // Escreva um algoritmo que realize um sorteio dentre o intervalo de 1 a 60 e que retorne três números aleatórios. 
@@ -36,3 +36,4 @@ do{
 	1º número sorteado: 3
 	2º número sorteado: 60
 	3º número sorteado: 6
+```

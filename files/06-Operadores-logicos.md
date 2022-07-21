@@ -1,10 +1,10 @@
-/*
- *  Operadores lógicos
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
- 
- 
+> **Operadores lógicos**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;      
+```php
 <?php
 // 1. Conectivo lógico 'AND' ($a && $b ou $a and $b)
 // Tem seu valor lógico verdadeiro somente quando todas as preposições forem verdadeiras
@@ -117,3 +117,4 @@ if(!$comprovanteVacina){  # A condição ao lado é equivalente a: if($comprovan
 }else{
 	echo 'Lamentamos, mas sem apresentar o comprovante, você não pode entrar no salão.';
 } # Lamentamos, mas sem apresentar o comprovante, você não pode entrar no salão.
+```

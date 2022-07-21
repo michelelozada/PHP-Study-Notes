@@ -1,10 +1,10 @@
-/*
- *  Funções 
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-	
+> **Funções**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;    
+```php	
 <?php
 	
 /*
@@ -22,3 +22,4 @@ function retornarMedia($notaAtividadePratica, $notaExameFinal){
 # Chamada da função
 echo 'A média final obtida pelo(a) aluno(a) foi '. retornarMedia(7.5, 6.5);
 # Retorna: A média final obtida pelo(a) aluno(a) foi 6.9.
+```

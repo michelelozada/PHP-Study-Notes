@@ -1,10 +1,10 @@
-/*
- *  Arrays associativos
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-  
-  
+> **Arrays associativos**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php  
 <?php   
 	
 // 1. Criando um array associativo
@@ -96,3 +96,4 @@ $json = json_encode($cadastro);
   
 echo($json); 
 # Retorna: {"aluno":"Enzo Martins","0":{"email":"enzo@email.com","celular":"419999-9999"}} 
+```

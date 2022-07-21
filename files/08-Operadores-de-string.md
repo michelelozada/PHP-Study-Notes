@@ -1,10 +1,10 @@
-/*
- *  Operadores de string
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Operadores de string**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php
 <?php
 	
 // 1. Operador de concatenação (.)
@@ -19,3 +19,4 @@ echo $nome . " " . $sobrenome;  # Ana Mattos
 $nome  = "Carlos";
 $nome .= " Henrique Portella Filho";
 echo $nome; # Retorna: Carlos Henrique Portella Filho
+```

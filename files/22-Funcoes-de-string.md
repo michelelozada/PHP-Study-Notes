@@ -1,10 +1,10 @@
-/*
- *  Funções de string
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Funções de string**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;    
+```php	
 <?php 
 
 $citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade'; 
@@ -69,3 +69,4 @@ $preco = 2800000;
 $formatted_price = 'R$ ' . number_format($preco, 2, ',' , '.');
 // 1º parâmetro da função: variável; 2º: número de casas decimais a exibir; 3º: símbolo para separar casa decimal; 4º: símbolo para separar o milhar
 echo $formatted_price; # Retorna: R$ 2.800.000,00
+```

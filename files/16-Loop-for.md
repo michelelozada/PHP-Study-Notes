@@ -1,10 +1,10 @@
-/*
- *  Estrutura de repetição - Loop for
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Estrutura de repetição - Loop for**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php
 <?php 
 
 // Ex. 1 
@@ -36,3 +36,4 @@ for($i = 0; $i < count($churrasco); $i++){
 4- farofa
 5- queijo coalho
 */
+```

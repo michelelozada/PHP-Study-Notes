@@ -1,10 +1,10 @@
-/*
- *  Operadores aritméticos
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Operadores aritméticos**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php
 <?php
 	
 $a = 4;
@@ -36,3 +36,4 @@ echo $a ** $b; # 16
 
 // 8. Negação (retorna o oposto)
 echo -$a;  # -4
+```

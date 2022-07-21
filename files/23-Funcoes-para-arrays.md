@@ -1,10 +1,10 @@
-/*
- *  Funções de arrays
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-  
-  
+> **Funções para arrays**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;      
+```php	 
 <?php   
 
 // 1. Retorna  o número de elementos de um array: função count()
@@ -220,3 +220,4 @@ Array
     [2] => Carla
     [3] => Dani
 ) */
+```

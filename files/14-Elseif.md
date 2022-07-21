@@ -1,10 +1,10 @@
-/*
- *  Estrutura de controle - Else if
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Estrutura de controle - Else if**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php
 <?php
 	
 // Já posso votar nestas eleições?	
@@ -42,3 +42,4 @@ $alfabetizado = true;
 $idade = 15;
 $alfabetizado = true;
 // Retorna: Não, você ainda não tem idade mínima (16 anos) para se alistar e votar.
+```

@@ -1,10 +1,10 @@
-/*
- *  Arrays multidimensionais
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-  
-  
+> **Arrays multidimensionais**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php 
 <?php   
 	
 //1. Criando um array multidimensional
@@ -163,3 +163,4 @@ Renault  Kwid  50.240
 Ford  Ka  52.694
 Chevrolet  Joy  54.200
 */
+```

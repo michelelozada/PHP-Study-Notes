@@ -1,10 +1,10 @@
-/*
- *  Estrutura de repetição - Loop while
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Estrutura de repetição - Loop while**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php
 <?php
 
 
@@ -36,3 +36,4 @@ To-Do List para o dia 22-06-2022:
  . Task nº 4: Enviar o protótipo para Carla
  . Task nº 5: Solicitar feedback sobre o design
 */
+```

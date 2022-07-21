@@ -1,10 +1,10 @@
-/*
- *  Tipos de variáveis
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Tipos de variáveis**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php
 <?php
 	
 // Retorne quais os tipos das variáveis apresentadas abaixo:
@@ -41,3 +41,4 @@ echo 'Tipo da variável: ' . gettype($e);
 $f = NULL;
 echo 'Tipo da variável: ' . gettype($f);
 # Tipo da variável: NULL
+```

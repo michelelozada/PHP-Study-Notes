@@ -1,10 +1,10 @@
-/*
- *  Arrays indexados
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
- 
- 
+> **Arrays indexados**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;      
+```php
 <?php
 	
 // 1.1. Criando um array indexado
@@ -131,3 +131,4 @@ echo $string;
 $frutas = array("maçã","abacaxi","laranja");
 echo implode(', ',$frutas); 
 # Retorna: maçã, abacaxi, laranja
+```

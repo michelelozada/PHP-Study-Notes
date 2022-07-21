@@ -1,10 +1,10 @@
-/*
- *  Operadores de atriubuição
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Operadores de atriubuição**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php
 <?php
 	
 // 1. Atribuição simples
@@ -55,3 +55,4 @@ $b = &$a; # $b agora é uma referência de $a
 echo $b; # Retorna: 3
 $a = 8;
 echo $b; # 8
+```

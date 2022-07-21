@@ -1,10 +1,11 @@
-/*
- *  Testando variáveis
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
+> **Testando variáveis**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
 
-
+```php
 <?php
 
 // As variáveis para testes:
@@ -71,3 +72,4 @@ var_dump(is_array($notas)); # true
 
 // 9. Função is_null():
 var_dump(is_null($celular)); # true
+```

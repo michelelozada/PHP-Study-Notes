@@ -1,10 +1,10 @@
-/*
- *  Estrutura de controle - Switch
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Estrutura de controle - Switch**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php
 <?php
 	
 /* Pesquisa de equivalência entre conceitos e notas finais escolares*/
@@ -36,3 +36,4 @@ switch($conceito){
 echo 'O conceito ' . $conceito . ' corresponde à faixa de notas compreendidas entre ' . $faixa1 . ' e '. $faixa2 .'.';
 
 # Retorna: O conceito C corresponde à faixa de notas compreendidas entre 5.0 a 6.9.
+```

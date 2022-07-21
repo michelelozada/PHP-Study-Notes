@@ -1,10 +1,10 @@
-/*
- *  Funções de data e hora
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Funções de data e hora**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;    
+```php	
 <?php 
 	
 // 1. Utilizando a função getdate para recuperar informações de data e hora (irá retornar um array associativo):
@@ -116,3 +116,4 @@ print_r ($intervalo);
 // Irá retonar: [invert] => 1, significando que o intervalo é negativo. Portanto para exibir este resultado use %r:
 print_r('O intervalo de tempo decorrido de uma data informada para outra é de '. $intervalo->format('%r%a') . ' dias.');
 # Retorna: O intervalo de tempo decorrido de uma data informada para outra é de -577 dias.
+```

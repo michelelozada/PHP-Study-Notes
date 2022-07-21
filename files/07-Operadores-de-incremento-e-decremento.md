@@ -1,10 +1,10 @@
-/*
- *  Operadores de incremento e decremento
- *  Repositório: Lógica de Programação e Algoritmos em PHP
- *  GitHub: @michelelozada
- */
-
-
+> **Operadores de incremento e decremento**     
+> Repositório: Lógica de Programação e Algoritmos em PHP   
+> GitHub: @michelelozada
+&nbsp;
+     
+&nbsp;     
+```php
 <?php
 
 // 1 - Operadores de incremento
@@ -71,3 +71,4 @@ echo $x++; # b
 echo $x++; # c
 echo $x++; # d
 echo $x++; # e
+```
