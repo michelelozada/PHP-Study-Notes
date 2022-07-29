@@ -29,6 +29,7 @@
 | [23](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/23-Funcoes-para-arrays.md) | Funções para arrays |
 | [24](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/24-Funcoes-matematicas.md) | Funções matemáticas |
 | [25](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/25-Funcoes-data-hora.md) | Funções de data e hora |
+| [26](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/26-26-Estrutura-Try-Catch-Finally.md) | Estrutura Try-Catch-Finally |
 
 &nbsp;   
 :bookmark_tabs: **Referências consultadas para criação deste repositório:**  
