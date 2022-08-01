@@ -44,17 +44,17 @@ function divisao($a, $b) {
 };
 
 try {
-    echo 'Resultado da divisão: ' . divisao(5,5);
+    echo 'Resultado da divisão: ' . divisao(10,5);
 } 
 catch (Exception $e) {
     echo 'Erro gerado: '.  $e->getMessage();
 }
 finally {
-    echo "\nFim da operação de divisão. Programa encerrado.";
+    echo "\nFim da operação de divisão. \nPrograma encerrado.";
 }
 
 /* Output:
-Resultado da divisão: 1
+Resultado da divisão: 2
 Fim da operação de divisão. 
 Programa encerrado.
 */
