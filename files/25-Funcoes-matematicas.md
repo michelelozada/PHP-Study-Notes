@@ -12,32 +12,36 @@ echo pow(2,3); # Retorna: 8
 		
 		
 // 2. Calcula a raiz quadrada de um dado valor: função sqrt()
-echo sqrt(25); #5
+echo sqrt(25); # 5
+
+
+// 3. Retornando somente a parte inteira de uma variável: função intval()
+echo intval(3.14); # 3
 	
 	
-// 3. Arrendondando valores
+// 4. Arrendondando valores
 $preco1 = 250.30;
 $preco2 = 257.55;
 	
-// 3.1. Arredonda valores para cima: função ceil()
-echo ceil($preco1);  #251
+// 4.1. Arredonda valores para cima: função ceil()
+echo ceil($preco1);  # 251
 
 
-// 3.2 Arredonda valores para baixo: função floor() 
-echo floor($preco1); #250
+// 4.2 Arredonda valores para baixo: função floor() 
+echo floor($preco1); # 250
 
 
-// 3.3. Arredonda um número float: função round()
+// 4.3. Arredonda um número float: função round()
 echo round($preco1); # 250
 echo round($preco2); # 258
 		
 		
-// 4. Retorna o valor absoluto de um número: função abs()
+// 5. Retorna o valor absoluto de um número: função abs()
 echo abs(-10); # 10
 echo abs(-5.5); # 5.5
 		
 		
-// 5. Gera um número inteiro aleatório: função rand()
+// 6. Gera um número inteiro aleatório: função rand()
 echo rand();
 # 1ª saída: 1927646153 | 2ª saída: 513050103 | 3ª saída: 118736831
 		
