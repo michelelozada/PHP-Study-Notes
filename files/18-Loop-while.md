@@ -23,7 +23,7 @@ $taskNumber=1;
 
 echo 'To-Do List para o dia 22-06-2022:'. "\n";
 while($taskNumber <= count($tasks)){
-	echo " . Task nº " . $taskNumber . ": " . $tasks[$i] . "\n";
+echo " . Task nº " . $taskNumber . ": " . $tasks[$i] . "\n";
 	$taskNumber++;
 	$i++;
 }
@@ -36,4 +36,43 @@ To-Do List para o dia 22-06-2022:
  . Task nº 4: Enviar o protótipo para Carla
  . Task nº 5: Solicitar feedback sobre o design
 */
+```
+&nbsp;   
+```php
+<?php
+
+// Crie um programa que, fornecidos dois números de início e fim, imprima na tela o intervalo entre eles com o incremento/decremento também a ser fornecido. 
+
+$inicio = 60;
+$final = 20;
+$passo = 3;
+
+if ($inicio < $final)
+{
+    echo "Impressão dos números compreendidos no intervalo de " . $inicio . " até " . $final . " (com incremento de " . $passo . "):<br>";	
+    while($inicio<=$final)
+    {
+	    echo $inicio . "<br>";
+        $inicio += $passo ;
+    }
+}
+else if ($inicio > $final)
+{
+    echo "Impressão dos números compreendidos no intervalo de " . $inicio . " até " . $final . " (com decremento de " . $passo . " números):<br><br>";	
+    while($inicio>=$final)
+    {
+	    echo $inicio . " ";
+	    $inicio -= $passo ;
+    }
+}  
+else
+{
+    echo "Atenção: você precisa escolher dois números distintos para a criação de um intervalo a ser impresso aqui.";
+}	
+
+/* Retorna: 
+Impressão dos números compreendidos no intervalo de 60 até 20 (com decremento de 3 números):
+60 57 54 51 48 45 42 39 36 33 30 27 24 21
+*/
+?>
 ```

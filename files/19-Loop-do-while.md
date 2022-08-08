@@ -11,14 +11,15 @@
 
 $contador = 1;
 echo "-- Resultado do sorteio -- \n";  
-do{
+do
+{
 	$sorteio = rand(1,60);
 	echo $contador . 'º número sorteado: ' . $sorteio . "\n";
 	$contador ++;
 }while ($contador < 4);
 
 
-/* Outupts possíveis:
+/* Outputs possíveis:
 1ª execução:
 	-- Resultado do sorteio -- 
 	1º número sorteado: 35
@@ -36,4 +37,68 @@ do{
 	1º número sorteado: 3
 	2º número sorteado: 60
 	3º número sorteado: 6
+```
+&nbsp;     
+```php
+<?php
+
+// Imprima a tabuada de multiplicação de um número fornecido pelo usuário
+
+$multiplicador = 5;
+$produto = 0;
+$multiplicando = 0;
+
+echo "Tabuada do $multiplicador:<br>";
+do
+{
+    $produto = $multiplicador * $multiplicando;
+    echo $multiplicador . " x " . $multiplicando . " = " . $produto . "<br>";
+    $multiplicando++;
+} while ($multiplicando <= 10);
+?>
+
+/* Output:
+Tabuada do 5:
+5 x 0 = 0
+5 x 1 = 5
+5 x 2 = 10
+5 x 3 = 15
+5 x 4 = 20
+5 x 5 = 25
+5 x 6 = 30
+5 x 7 = 35
+5 x 8 = 40
+5 x 9 = 45
+5 x 10 = 50
+*/
+```
+&nbsp;     
+```php
+<?php
+
+// Escreva um programa que calcule o fatorial de um número a ser fornecido pelo usuário
+
+$fatorial = 5;
+$res = $fatorial;
+$i   = 1;
+
+if ($fatorial > 0){
+	do
+	{ 
+		$res = $res * $i;
+		$i++;
+	} while($i < $fatorial);
+	echo "Resultado: O fatorial de $fatorial é $res.";
+}
+elseif ($fatorial == 0 )
+{
+	$res = 1;
+	echo "Resultado: O fatorial de $fatorial é $res.";
+}
+else
+{
+	echo "Deve ser informado um número igual ou maior que zero.";
+}
+
+# Retorna: O fatorial de 5 é 120.
 ```
