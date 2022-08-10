@@ -7,7 +7,6 @@
 ```php
 <?php
 
-
 // Dado um array com uma lista de tarefas, apresente-a de forma sequencial para o usuário: 
 
 $tasks = [
@@ -41,38 +40,37 @@ To-Do List para o dia 22-06-2022:
 ```php
 <?php
 
-// Crie um programa que, fornecidos dois números de início e fim, imprima na tela o intervalo entre eles com o incremento/decremento também a ser fornecido. 
+// Crie um programa que, fornecidos os números de início e fim e o incnremento/decremento, imprima na tela o respectivo intervalo de números.
 
 $inicio = 60;
 $final = 20;
 $passo = 3;
 
-if ($inicio < $final)
-{
-    echo "Impressão dos números compreendidos no intervalo de " . $inicio . " até " . $final . " (com incremento de " . $passo . "):<br>";	
-    while($inicio<=$final)
+if ($inicio != $final)
+    if ($inicio < $final)
     {
-	    echo $inicio . "<br>";
-        $inicio += $passo ;
+        echo "Impressão dos números compreendidos no intervalo de " . $inicio . " até " . $final . " (com incremento de " . $passo . "):<br>";	
+        while($inicio<=$final)
+        {
+    	    echo $inicio . " ";
+            $inicio += $passo ;
+        }
     }
-}
-else if ($inicio > $final)
-{
-    echo "Impressão dos números compreendidos no intervalo de " . $inicio . " até " . $final . " (com decremento de " . $passo . " números):<br><br>";	
-    while($inicio>=$final)
+    else 
     {
-	    echo $inicio . " ";
-	    $inicio -= $passo ;
-    }
-}  
+        echo "Impressão dos números compreendidos no intervalo de " . $inicio . " até " . $final . " (com decremento de " . $passo . " números):<br>";	
+        while($inicio>=$final)
+        {
+            echo $inicio . " ";
+    	    $inicio -= $passo ;
+        }
+    }  
 else
 {
     echo "Atenção: você precisa escolher dois números distintos para a criação de um intervalo a ser impresso aqui.";
 }	
-
 /* Retorna: 
 Impressão dos números compreendidos no intervalo de 60 até 20 (com decremento de 3 números):
 60 57 54 51 48 45 42 39 36 33 30 27 24 21
 */
-?>
 ```

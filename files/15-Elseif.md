@@ -1,4 +1,4 @@
-> **Estrutura de controle - Else if**     
+> **Estrutura de controle - Elseif**     
 > Repositório: Lógica de Programação e Algoritmos em PHP   
 > GitHub: @michelelozada
 &nbsp;
@@ -7,22 +7,32 @@
 ```php
 <?php
 	
-// Já posso votar nestas eleições?	
+// Eu posso votar nestas eleições?	
 	
 $idade = 19;
 $alfabetizado = false;
 
-if($alfabetizado == false) {
+if($alfabetizado == false) 
+{
 	echo 'Você declarou ser analfabeto(a) e, portanto, seu alistamento eleitoral e voto são facultativos';
-} else{
-	if($idade >= 16 && $idade < 18){
+} 
+else
+{
+	if($idade >= 16 && $idade < 18)
+	{
 		echo 'Sim, você pode se alistar para votar (lembrando que o voto é facultativo para sua faixa de idade).';	
-	} else if ($idade >= 18 && $idade <= 69){
-		echo 'Sim, o voto é obrigatório para a sua faixa de idade.';	
-	} else if ($idade > 70) {
+	} 
+	elseif ($idade >= 18 && $idade <= 69)
+	{
+		echo 'Sim, o voto aliás é obrigatório para a sua faixa de idade.';	
+	} 
+	elseif ($idade > 70)
+	{
 		echo 'Sim, você pode votar (lembrando que o voto é facultativo para pessoas com 70 anos ou mais).';	
-	} else{
-		echo 'Não, você ainda não tem idade mínima (16 anos) para se alistar e votar.';
+	} 
+	else
+	{
+		echo 'Não, você ainda não alcançou a idade mínima (16 anos) para se alistar e votar.';
 	}
 }
 // Retorna: Você declarou ser analfabeto(a) e, portanto, seu alistamento eleitoral e voto são facultativos
@@ -33,7 +43,7 @@ $alfabetizado = true;
 
 $idade = 42;
 $alfabetizado = true;
-// Retorna: Sim, o voto é obrigatório para a sua faixa de idade.
+// Retorna: Sim, o voto aliás é obrigatório para a sua faixa de idade.
 
 $idade = 72;
 $alfabetizado = true;
@@ -41,5 +51,5 @@ $alfabetizado = true;
 
 $idade = 15;
 $alfabetizado = true;
-// Retorna: Não, você ainda não tem idade mínima (16 anos) para se alistar e votar.
+// Retorna: Não, você ainda não alcançou a idade mínima (16 anos) para se alistar e votar.
 ```

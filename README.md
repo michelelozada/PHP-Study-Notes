@@ -18,7 +18,7 @@
 | [12](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/12-Arrays-associativos.md) | Arrays associativos | 
 | [13](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/13-Arrays-multidimensionais.md) | Arrays multidimensionais |
 | [14](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/14-If-else-e-operador-ternario.md) | Estrutura de controle - If else e operador ternário | 
-| [15](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/15-Elseif.md) | Estrutura de controle - Else if |
+| [15](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/15-Elseif.md) | Estrutura de controle - Elseif |
 | [16](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/16-Switch.md) | Estrutura de controle - Switch |
 | [17](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/17-Loop-for.md) | Estrutura de repetição - Loop for |
 | [18](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/18-Loop-while.md) | Estrutura de repetição - Loop while |

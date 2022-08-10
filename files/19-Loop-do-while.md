@@ -45,8 +45,8 @@ do
 // Imprima a tabuada de multiplicação de um número fornecido pelo usuário
 
 $multiplicador = 5;
-$produto = 0;
 $multiplicando = 0;
+$produto = 0;
 
 echo "Tabuada do $multiplicador:<br>";
 do
@@ -57,7 +57,7 @@ do
 } while ($multiplicando <= 10);
 ?>
 
-/* Output:
+/* Retorna:
 Tabuada do 5:
 5 x 0 = 0
 5 x 1 = 5
@@ -78,26 +78,27 @@ Tabuada do 5:
 
 // Escreva um programa que calcule o fatorial de um número a ser fornecido pelo usuário
 
+<?php
 $fatorial = 5;
-$res = $fatorial;
-$i   = 1;
+$resultado = $fatorial;
+$contador   = 1;
 
 if ($fatorial > 0){
 	do
 	{ 
-		$res = $res * $i;
-		$i++;
-	} while($i < $fatorial);
-	echo "Resultado: O fatorial de $fatorial é $res.";
+		$resultado = $resultado * $contador;
+		$contador ++;
+	} while($contador < $fatorial);
+	echo "Resultado: O fatorial de $fatorial é $resultado.";
 }
-elseif ($fatorial == 0 )
+elseif ($fatorial == 0)
 {
-	$res = 1;
-	echo "Resultado: O fatorial de $fatorial é $res.";
+	$resultado = 1;
+	echo "Resultado: O fatorial de $fatorial é $resultado.";
 }
 else
 {
-	echo "Deve ser informado um número igual ou maior que zero.";
+	echo "Aviso: Deve ser informado um número inteiro positivo.";
 }
 
 # Retorna: O fatorial de 5 é 120.

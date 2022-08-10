@@ -11,13 +11,16 @@
 	
 $media = 65;
 
-if($media >= 70){
+if($media >= 70)
+{
 	$status = 'Aluno(a) foi aprovado(a) no curso.';
-} else {
+} 
+else 
+{
 	$status = 'Aluno(a) terá de realizar o exame final.';
 }
-echo $status;	
-# Retorna: Aluno(a) terá de realizar o exame final.
+echo 'Status: ' . $status;	
+# Retorna: Status: Aluno(a) terá de realizar o exame final.
 
 
 // 2 - Utilizando o operador ternário (para o mesmo exemplo acima):
@@ -25,7 +28,7 @@ echo $status;
 $media = 65;
 
 $status = ($media >= 70) ? 'aprovado': 'reprovado';
-echo 'Status do aluno: '. (($media >= 70) ? 'aprovado' : 'reprovado');
+echo 'Status do aluno: ' . (($media >= 70) ? 'aprovado' : 'reprovado');
 
 # Retorna: Status do aluno: reprovado
 ```
