@@ -5,6 +5,49 @@
      
 &nbsp;     
 ```php
+<?php
+
+// Escreva um programa que, sendo um informado um número, diga se este é um número primo ou não.
+
+$numero = 5;
+$total=0;
+
+echo "Analisando se " . $numero . " é um número primo...";
+echo "Multiplos de " . $numero . ": ";
+
+for($c=1; $c<= $numero ; $c++){
+	if($numero % $c == 0) 
+	{
+		$total++;
+		echo $c .' ';
+	}
+}
+
+echo "Quantidade de múltiplos: ". $total ;
+
+if($total == 2)
+{
+	echo ('Resultado: É um número primo!');
+}
+elseif($numero == 1)
+{
+	echo ('Resultado: Um número primo precisa ser maior ou igual a dois, portanto o número 1 não é número primo!');
+}
+else
+{
+	echo ('Resultado: Não é um número primo!');
+}
+
+/* Retorna:
+Analisando se 5 é um número primo...
+Multiplos de 5: 1 5 
+Quantidade de múltiplos: 2
+Resultado: É um número primo!
+*/
+```
+&nbsp;
+&nbsp; 
+```php
 <?php 
 
 // Ex. 1 
