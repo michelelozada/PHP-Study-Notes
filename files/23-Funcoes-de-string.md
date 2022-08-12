@@ -4,62 +4,110 @@
 &nbsp;
      
 &nbsp;    
+**1 - Retornando a quantidade de caracteres (com espaços) de uma string: função `strlen()`**
 ```php	
 <?php 
 
 $citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade'; 
-	
-// 1 - Retorna quantidade de caracteres (com espaços) de uma string: função strlen()
 echo strlen($citacao); # Retorna: 69
+```
+&nbsp;
+&nbsp;    
+**2 - Contando o número ocorrências de uma substring dentro da string: função `substr_count()`**
+```php	
+<?php 
 
-
-// 2 - Contando o número ocorrências de uma substring dentro da string: função substr_count()
 // Att! Case-sensitive
+$citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo substr_count($citacao,'passo'); # 2
+```
+&nbsp;
+&nbsp;   
+**3 - Retornando a primeira ocorrência de uma letra na string: função `stripos()`** 
+```php	
+<?php 
 
-
-// 3 - Retorna a primeira ocorrência de uma letra na string: função stripos() 
 // Obs: Case-insensitive
+$citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo stripos($citacao,'o'); # 9
+```
+&nbsp;
+&nbsp;   
+**4 - Retornando a última ocorrência de uma letra na string: função `strripos()`** 
+```php	
+<?php 
 
-
-// 4 - Retorna a última ocorrência de uma letra na string: função strripos() 
 // Obs: Case-insensitive
+$citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo strripos($citacao,'o'); # 50
+```
+&nbsp;
+&nbsp;   
+**5 - Convertendo uma string para minúsculas: função `strlower()`** 
+```php	
+<?php 
 
-
-// 5 - Converte uma string para minúsculas: função strlower() 
+$citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo strtolower($citacao); 
 # um pequeno passo para o homem, um gigantesco passo para a humanidade
+```
+&nbsp;
+&nbsp;   
+**6 - Convertendo uma string para maiúsculas: função `strtoupper()`** 
+```php	
+<?php 
 
-
-// 6 - Converte uma string para maiúsculas: função strtoupper() 
+$citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo strtoupper($citacao); 
 # UM PEQUENO PASSO PARA O HOMEM, UM GIGANTESCO PASSO PARA A HUMANIDADE
+```
+&nbsp;
+&nbsp;   
+**7 - Retornando uma string com seu primeiro caractere maiúsculo: função `ucfirst()`**
+```php	
+<?php 
 
-
-// 7 - Retorna a string com seu primeiro caractere maiúsculo: função ucfirst()
+$citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo ucfirst($citacao);
 # Um pequeno passo para o Homem, um gigantesco passo para a Humanidade
+```
+&nbsp;
+&nbsp;   
+**8 - Retornando uma string com o primeiro caractere de cada palavra em maiúsculo: função `ucwords()`**
+```php	
+<?php 
 
-
-// 8 - Retorna a  string com o primeiro caractere de cada palavra em maiúsculo: função ucwords()
+$citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo ucwords($citacao);
 # Um Pequeno Passo para O Homem, Um Gigantesco Passo Para A Humanidade
+```
+&nbsp;
+&nbsp;    
+**9 - Substituindo todas as ocorrências da string de procura com a string de substituição: função `str_replace()`**
+```php	
+<?php 
 
-
-// 9 - Substitui todas as ocorrências da string de procura com a string de substituição: função str_replace()
-echo str_replace ('um gigantesco passo para a Humanidade','one giant leap for Mankind',$citacao);
+$citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
+replace ('um gigantesco passo para a Humanidade','one giant leap for Mankind',$citacao);
 # um pequeno passo para o Homem, one giant leap for Mankind
+```
+&nbsp;
+&nbsp;   
+**10 - Retornando determinada parte da string: função `substr()`**
+```php	
+<?php 
 
-
-// 10 - Retorna determinada parte da string: função substr()
+$citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo substr($citacao,31); # um gigantesco passo para a Humanidade
 echo substr($citacao,-12); # a Humanidade
 echo substr($citacao,-34,16); # gigantesco passo
+```
+&nbsp;
+&nbsp;   
+**11 - Formatação de um número: função `number_format()`**
+```php
+<?php 
 
-
-// 11 - Formatação de um número: função number_format()
 $divisao = 1900/3;
 echo $divisao; # Retorna: 633.33333333333 
 echo number_format($divisao, 2); # 633.33
