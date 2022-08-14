@@ -171,7 +171,25 @@ echo str_pad($nome,15,"*",STR_PAD_BOTH);
 ````
 &nbsp;
 &nbsp;  
-**16 - Convertendo uma string num array: função `str_split()`**
+**16 - Retirando o espaço em branco (ou outros caracteres) do início e do fim de uma string: funções `trim()`, `ltrim()` e `rtrim()`** 
+```php
+<?php 
+
+$nome = "   Ana Maria ";
+echo strlen($nome); // Retorna: 13 (caracteres com espaços)
+
+$nome2 = trim($nome);
+echo strlen($nome2); // Retorna: 9 (agora sem os espaços do início e do final)
+
+$nome3 = ltrim($nome);
+echo strlen($nome3); // Retorna: 10 (agora sem os espaços do início)
+
+$nome4 = rtrim($nome);
+echo strlen($nome4); // Retorna: 12 (sem espaço do final)
+```
+&nbsp;
+&nbsp;  
+**17- Convertendo uma string num array: função `str_split()`**
 ```php
 <?php  
 
@@ -203,8 +221,41 @@ Array
 ```
 &nbsp;
 &nbsp;  
-**17 - Quebrando uma string em um array: função `explode()`**
+**18 - Quebrando uma string de acordo com um determinado número de caracteres: função `wordwrap()`**
 ```php
+<?php
+$citacao = "Esse é o singelo segredo da felicidade. Faça o que fizer, não deixe que o passado interfira, não deixe que o futuro incomode. (Osho)";
+$res = wordwrap($citacao, 30,"<br>",false);
+# Nota: O segundo parâmetro diz respeito ao número de carateres desejado; 'false' define que a palavra não será quebrada ao fim da largura da linha.
+echo($res);
+
+/* Retorna:
+Esse é o singelo segredo da
+felicidade. Faça o que fizer,
+não deixe que o passado
+interfira, não deixe que o
+futuro incomode. (Osho)
+*/
+?>
+```
+&nbsp;
+&nbsp;  
+**19 - Unindo os elementos de um array em uma string: funções `implode()` ou `join()`** 
+```php
+<?php
+	
+$lista = ['laranja', 'maçã', 'abacaxi'];
+$str = implode(" ",$lista);
+echo($str);
+# Retorna: laranja maçã abacaxi
+?>
+```
+&nbsp;
+&nbsp;  
+**20 - Quebrando uma string em um array: função `explode()`**
+```php
+<?php  
+
 $txt = "Hello Word!";
 $array = explode(" ", $txt);
 print_r($array);
@@ -221,8 +272,52 @@ echo $array[1]; // Retorna: World!
 ```
 &nbsp;
 &nbsp;  
-**18 - Gerando uma string formatada: função `printf()`**
+**21 - Retornando informações sobre palavras usadas em uma string: função `str_word_count()`**    
+*Esta função varia de acordo com o que foi definido no seu segundo parâmetro, conforme exemplos abaixo.*    
+*Nota: Esta função não lida bem com palavras com acentos.*  
 ```php
+<?php
+
+# Retornando o número de palavras encontradas na string
+print_r(str_word_count("Essa linguagem de programacao se chama PHP", 0));
+# Retorna: 7
+
+
+# Retornando um array contendo todas as palavras encontradas na string
+print_r(str_word_count("Essa linguagem de programacao se chama PHP", 1));
+/* Retorna:
+Array
+(
+    [0] => Essa
+    [1] => linguagem
+    [2] => de
+    [3] => programacao
+    [4] => se
+    [5] => chama
+    [6] => PHP
+)
+*/
+
+# Retornando um array com a posição em que começa cada palavra da string
+print_r(str_word_count("Essa linguagem de programacao se chama PHP", 2));
+/* Retorna:
+Array
+(
+    [0] => Essa
+    [5] => linguagem
+    [15] => de
+    [18] => programacao
+    [30] => se
+    [33] => chama
+    [39] => PHP
+)
+```
+&nbsp;
+&nbsp;  
+**22 - Gerando uma string formatada: função `printf()`**
+```php
+<?php  
+
 $quantidade = 2;
 $produto = "pizzas";
 $preco = 90;
@@ -232,7 +327,7 @@ printf("Hoje, paguei R$ %.2f comprando %u %s.", $preco, $quantidade, $produto);
 ```
 &nbsp;
 &nbsp;  
-**19 - Formatando um número: função `number_format()`**
+**23 - Formatando um número: função `number_format()`**
 ```php
 <?php 
 

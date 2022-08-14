@@ -4,10 +4,10 @@
 &nbsp;
      
 &nbsp;     
+**1. Criando um array associativo**
 ```php  
 <?php   
-	
-// 1. Criando um array associativo
+
 $endereco = [];
 $endereco['logradouro'] = 'Rua Cleide Geronasso';
 $endereco['numero'] = 1525;
@@ -25,14 +25,22 @@ Array
     [estado] => PR
 )
 */
+```
+&nbsp;
+&nbsp;    
+**2. Acessando elementos de um array associativo**  
+```php  
+<?php   
 
-
-// 2. Acessando elementos de um array associativo
 echo $endereco['logradouro'] = 'Rua Cleide Geronasso'; # Retorna: Rua Cleide Geronasso
 echo $endereco['cidade'] = 'Curitiba'; # Curitiba
+```
+&nbsp;
+&nbsp;    
+**3. Inserindo novos elementos na última posição do array**
+```php  
+<?php   
 
-
-// 3 . Inserindo novos elementos na última posição do array
 $endereco['pais'] = 'Brasil';
 print_r ($endereco);
 /* Retorna:
@@ -46,9 +54,13 @@ Array
     [pais] => Brasil
 )
 */
+```
+&nbsp;
+&nbsp;    
+**4. Substituindo elementos em um array**  
+```php  
+<?php   
 
-
-// 4. Substituindo elementos em um array
 $endereco['numero'] = 152;
 /* Retorna:
 Array
@@ -61,11 +73,15 @@ Array
     [pais] => Brasil
 )
 */
+```
+&nbsp;
+&nbsp;    
+**5. Removendo elementos de um array**  
+```php  
+<?php   
 
-
-// 5. Removendo elementos de um array
-/* Retorna:
 unset($endereco['pais']);
+/* Retorna:
 Array
 (
     [logradouro] => Rua Cleide Geronasso
@@ -75,23 +91,27 @@ Array
     [estado] => PR
 )
 */
+```
+&nbsp;
+&nbsp;    
+**6. Juntando elementos da matriz acima numa string: `função implode()`**  
+```php  
+<?php   
 
-
-// 6. Juntando elementos da matriz acima numa string: função implode()
 $string = implode(', ',$endereco); // o primeiro parâmetro diz respeito ao separador
 echo $string;
 # Retorna: Rua Cleide Geronasso, 152, apartamento 2, Curitiba, PR
+```
+&nbsp;
+&nbsp;    
+**7. Convertendo um array em uma string JSON: função `json_encode()`**  
+```php  
+<?php   
 
-
-// 7. Convertendo um array em uma string JSON: função json_encode() 
 $cadastro = array( 
     "aluno"=>"Enzo Martins", 
-    array( 
-        "email"=>"enzo@email.com", 
-        "celular"=>"419999-9999"
-    ) 
-); 
-  
+    array("email"=>"enzo@email.com", 
+          "celular"=>"419999-9999")); 
 $json = json_encode($cadastro); 
   
 echo($json); 

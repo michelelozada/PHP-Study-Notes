@@ -4,10 +4,10 @@
 &nbsp;
      
 &nbsp;      
+**1. Retorna  o número de elementos de um array: `função count()`**
 ```php	 
-<?php   
+<?php  
 
-// 1. Retorna  o número de elementos de um array: função count()
 $frutas = array('maçã','laranja','banana','mamão');
 echo count($frutas); # Retorna: 4
 
@@ -20,19 +20,49 @@ $endereco['complemento'] = 'apartamento 2';
 $endereco['cidade'] = 'Curitiba';
 $endereco['estado'] = 'PR';
 echo count($endereco); # 5
+```
+&nbsp;
+&nbsp;  
+**2. Criando um array contendo uma sequência a partir de parâmetros pré-definidos: `função range()`**
+````php
+<?php 
+
+$c = range(5,20,5);
+print_r($c);
+/*
+Array
+(
+    [0] => 5
+    [1] => 10
+    [2] => 15
+    [3] => 20
+)
+*/
+````
 
 
-// 2. Retorna o maior valor de um array: função max()
+**2. Retorna o maior valor de um array: `função max()`**
+```php	 
+<?php  
+
 $numbers = [15,27,39,41,50];
 echo max($numbers); # Retorna: 50
+```
+&nbsp;
+&nbsp;  
+**3. Retorna o maior valor de um array: `função min()`**
+```php	 
+<?php  
 
-
-// 3. Retorna o maior valor de um array: função min()
 $numbers = [15,27,39,41,50];
 echo max($numbers); # Retorna: 15
+```
+&nbsp;
+&nbsp;  
+**4. Retorna um array com elementos ordenados em ordem crescente: `função sort()`**
+```php	 
+<?php  
 
-
-// 4. Retorna um array com elementos ordenados em ordem crescente: função sort()
 $nomes = array('Bob','Ester','Ana','Dani','Carla');
 sort($nomes);
 foreach ($nomes as $key => $value){
@@ -46,9 +76,13 @@ nomes[2] = Carla
 nomes[3] = Dani
 nomes[4] = Ester
 */
+```
+&nbsp;
+&nbsp;  
+**5. Retorna um array com elementos ordenados em ordem decrescente: `função rsort()`**
+```php	 
+<?php  
 
-
-// 5. Retorna um array com elementos ordenados em ordem decrescente: função rsort()
 $nomes = array('Bob','Ester','Ana','Dani','Carla');
 rsort($nomes);
 foreach ($nomes as $key => $value){
@@ -62,56 +96,79 @@ nomes[2] = Carla
 nomes[3] = Bob
 nomes[4] = Ana
 */
+```
+&nbsp;
+&nbsp;  
+**6. Verifica se um determinado valor existe em um array: `função in_array()`**
+```php	 
+<?php  
 
-
-// 6. Verifica se um determinado valor existe em um array: função in_array()
 $legumes = ['abóbora', 'berinjela', 'chuchu', 'tomate', 'pepino'];
-if(in_array('tomate', $legumes)){
+if(in_array('tomate', $legumes))
+{
     echo "Sim, existe tomate no array.\n";
 } 
-if(in_array('feijão', $legumes)){
-    echo "Sim, existe feijão no array.";0
+if(in_array('feijão', $legumes))
+{
+    echo "Sim, existe feijão no array.";
 } 
-if(in_array('chuchu', $legumes)){
+if(in_array('chuchu', $legumes))
+{
     echo "Sim, existe chuchu no array.";
 } 
 /* Retorna: 
 Sim, existe tomate no array.
 Sim, existe chuchu no array.
 */
+```
+&nbsp;
+&nbsp;  
+**7. Retornando se uma determainada chave existe no array: `função array_key_exists()`**
+```php	 
+<?php  
 
-
-// 7. Retornando se uma determainada chave existe no array: função array_key_exists()
-$endereco = array(
-				'logradouro' => 'Rua Cleide Geronasso',
-				'numero' => 1525,
-				'complemento' => 'apartamento 2',
-				'cidade' => 'Curitiba',
-				'estado' => 'PR'
-			);
-if(array_key_exists('cidade', $endereco)){
+$endereco = array('logradouro'  => 'Rua Cleide Geronasso',
+				  'numero'      => 1525,
+				  'complemento' => 'apartamento 2',
+				  'cidade'      => 'Curitiba',
+				  'estado'      => 'PR');
+if(array_key_exists('cidade', $endereco))
+{
 	echo 'A chave informada existe no array.';
-}else {
+}
+else
+{
 	echo 'A chave informada não existe no array.';
 } # Retorna: Esta chave existe no array.
+```
+&nbsp;
+&nbsp;  
+**8.  Procurando um valor em um array e retornando sua chave correspondente, caso encontrada: `função array_search()`**
+```php	 
+<?php  
 
-
-// 8.  Procurando um valor em um array e retornando sua chave correspondente, caso encontrada: função array_search()
 $endereco = array(
-				'logradouro' => 'Rua Cleide Geronasso',
-				'numero' => 1525,
+				'logradouro'  => 'Rua Cleide Geronasso',
+				'numero'      => 1525,
 				'complemento' => 'apartamento 2',
-				'cidade' => 'Curitiba',
-				'estado' => 'PR'
+				'cidade'      => 'Curitiba',
+				'estado'      => 'PR'
 			);
-if(in_array('Curitiba',$endereco)){
+if(in_array('Curitiba',$endereco))
+{
 	echo 'A chave corresponde ao valor informado é: '. array_search('Curitiba',$endereco) . '.';
-}else{
+}
+else
+{
     echo 'Não há chave correspondente ao valor informado.';
 }  # Retorna: A chave corresponde ao valor informado é: cidade
+```
+&nbsp;
+&nbsp;  
+**9. Misturando os elementos de um array: `função shuffle()`**
+```php	 
+<?php  
 
-
-// 9. Misturando os elementos de um array: função shuffle()
 $nomes = ['Ana','Bia','Carla','Dani','Érica'];
 shuffle($nomes);
 print_r($nomes); 
@@ -126,18 +183,19 @@ Array
     [4] => Ana
 )
 */
-
-
-// 10. Combinando um ou mais arrays: função array_merge()
+```
+&nbsp;
+&nbsp;  
+**10. Combinando um ou mais arrays: `função array_merge()`**
+```php	 
+<?php  
 
 # 10.1 - Combinando dois arrays associativos (note que elementos com a mesma chave são sobrescritos por elementos do array subsequente)
-$nomes1 = array(
-	'a' => 'Ana',
-	'b' => 'Bia',
-	'c' => 'Carla',
-	'd' => 'Dani',
-	'e' => 'Erica'
-);
+$nomes1 = array('a' => 'Ana',
+	            'b' => 'Bia',
+	            'c' => 'Carla',
+	            'd' => 'Dani',
+	            'e' => 'Erica');
 $nomes2 = array(
 	'a' => 'Alexandre',
 	'e' => 'Enzo',
@@ -184,9 +242,12 @@ Array
     [8] => Otávio
     [9] => Ulisses
 ) */
-
-
-// 11. Aplicando uma função a todos os elementos dos arrays fornecidos: função array_map() 
+```
+&nbsp;
+&nbsp;  
+**11. Aplicando uma função a todos os elementos dos arrays fornecidos: função array_map()**
+```php	 
+<?php  
 
 # 11.1 - Exemplo:
 function soma2($n){
