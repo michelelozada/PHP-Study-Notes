@@ -7,6 +7,7 @@
 **1 - Criando um array indexado**  
 ```php
 <?php
+
 $emptyArray = array();
 $numberArray = array(1,2,3,4,5);
 
@@ -18,63 +19,62 @@ $numberArray = [1,2,3,4,5];
 &nbsp;     
 **2 - Exibindo o conteúdo de um array**  
 &nbsp;  
-**2.1 - Via `print_r`**  
+**2.1 - Via função `print_r`**  
 ```php
 <?php
 
-
-$frutas = array('maçã','laranja','banana','mamão');
+$frutas = array('amora','laranja','banana','uva');
 print_r ($frutas);	
 /* Retorna:
 Array
 (
-    [0] => maçã
+    [0] => amora
     [1] => laranja
     [2] => banana
-    [3] => mamão
+    [3] => uva
 )
 */
 ```
 &nbsp;  
-**2.2 - Via `var_dump()`**
+**2.2 - Via função `var_dump()`**
 ```php
 <?php
 
-$frutas = array('maçã','laranja','banana','mamão');
+$frutas = array('amora','laranja','banana','uva');
 var_dump($frutas);
 /* Retorna:
 array(4) {
   [0]=>
-  string(6) "maçã"
+  string(5) "amora"
   [1]=>
   string(7) "laranja"
   [2]=>
   string(6) "banana"
   [3]=>
-  string(6) "mamão"
+  string(3) "uva"
 }
 */
 ```
 &nbsp;  
-**2.3 - Via `foreach()`**  
+**2.3 - Via estrutura `foreach()`**  
 ```php
 <?php
 
-$frutas = array('maçã','laranja','banana','mamão');
+$frutas = array('amora','laranja','banana','uva');
 foreach ($frutas as $fruit) {
     echo $fruit . ' ';
 }
-# Retorna: maçã laranja banana mamão 
+# Retorna: amora laranja banana uva 
 
-$frutas = array('maçã','laranja','banana','mamão');
+$frutas = array('amora','laranja','banana','uva');
 foreach ($frutas as $key => $value) {
     echo "[" . $key . "]" . ' ' . $value . "\n";
 }
 /* Retorna: 
-[0] maçã
+[0] amora
 [1] laranja
 [2] banana
-[3] mamão
+[3] uva
 */
 ```
 &nbsp;
@@ -83,12 +83,10 @@ foreach ($frutas as $key => $value) {
 ```php
 <?php
 
-$frutas = array('maçã','laranja','banana','mamão');
-echo $frutas[0]; # retorna maçã
+$frutas = array('amora','laranja','banana','uva');
+echo $frutas[0]; # Retorna: amora
 echo $frutas[1]; # laranja
-echo $frutas[3]; # mamão
-&nbsp;
-&nbsp;  
+echo $frutas[3]; # uva
 ```
 &nbsp;
 &nbsp;  
@@ -96,19 +94,18 @@ echo $frutas[3]; # mamão
 ```php
 <?php
 
-$frutas = array('maçã','laranja','banana','mamão');
+$frutas = array('amora','laranja','banana');
 $frutas[] = 'morango';
-$frutas[] = 'pêssego';
+$frutas[] = 'melancia';
 print_r($frutas);
 /* Retorna:
 Array
 (
-    [0] => maçã
+    [0] => amora
     [1] => laranja
     [2] => banana
-    [3] => mamão
-    [4] => morango
-    [5] => pêssego
+    [3] => morango
+    [4] => melancia
 )
 */
 ```
@@ -118,7 +115,7 @@ Array
 ```php
 <?php
 
-$frutas = array('maçã','laranja','banana','mamão');
+$frutas = array('amora','laranja','banana');
 $frutas[0] = 'tangerina';
 $frutas[3] = 'cereja';
 print_r($frutas);
@@ -131,33 +128,4 @@ Array
     [3] => cereja
 )
 */
-```
-&nbsp;
-&nbsp;   
-**6 - Removendo elementos de um array**  
-```php
-<?php
-
-$frutas = array('maçã','laranja','banana','mamão');
-unset($frutas[2]);
-print_r($frutas);
-/* Retorna:
-Array
-(
-    [0] => maçã
-    [1] => laranja
-    [3] => mamão
-)
-*/
-```
-&nbsp;
-&nbsp;   
-**7 - Juntando os elementos de uma matriz numa string**  
-```php
-<?php
-
-$frutas = array("maçã","abacaxi","laranja");
-$string = implode(' - ',$frutas);
-echo $string; 
-# Retorna: maçã - abacaxi - laranja
 ```
