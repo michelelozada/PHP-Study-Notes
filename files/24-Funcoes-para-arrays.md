@@ -333,7 +333,7 @@ Array
 */
 ```
 &nbsp;
-&nbsp;
+&nbsp;  
 **16. Retornando um array com elementos ordenados em ordem crescente: função `sort()`**
 ```php	 
 <?php  

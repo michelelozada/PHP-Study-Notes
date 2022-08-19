@@ -3,36 +3,76 @@
 > GitHub: @michelelozada
 &nbsp;
      
-&nbsp;    
+&nbsp;   
+```php	
+<?php
+
+// Escreva um programa que some os números compreendidos entre dois números fornecidos (ambos a serem inclusos na soma tb)
+
+function somador($x,$y){
+    $total = 0;
+    for($c = $x;$c<=$y;$c++){
+        $total += $c;
+    }
+    return $total;
+}
+
+$x = 20;
+$y = 26;
+$res = somador($x,$y);
+echo "O valor da soma dos números compreendidos entre $x e $y (ambos inclusos) é $res.";
+
+# Retorna: O valor da soma dos números compreendidos entre 20 e 26 (ambos inclusos) é 161.
+```
+&nbsp;
+&nbsp;
 ```php	
 <?php
 	
 /*
-Criar uma função para cálculo de notas de um aluno, sendo que:
+Crie uma função para cálculo de notas de um aluno, sendo que:
 - A atividade prática deve ter peso de 40%.
-- O exame final deve ter peso de 60%.
-- Para o exemplo considerar as notas do aluno: 7.5 (atividade prática) e 6.5 (exame final).
+- A prova deve ter peso de 60%.
+- Deve ser informado também se aluno foi aprovado, ficou em recuperação ou se reprovou.
 */
 
-# A função
-function retornarMedia($notaAtividadePratica, $notaExameFinal){
-	return ($notaAtividadePratica * 0.4 + $notaExameFinal * 0.6);
+function retornarMedia($x, $y){
+	return ($x * 0.4 + $y * 0.6);
 }
 
-# Chamada da função
-echo 'A média final obtida pelo(a) aluno(a) foi '. retornarMedia(7.5, 6.5);
-# Retorna: A média final obtida pelo(a) aluno(a) foi 6.9.
+function retornarStatus($z){
+	if ($z >= 7.0){
+	    return "está aprovado";   
+	} 
+	elseif($z >= 5.0 && $z < 7.0){
+	    return "deve fazer prova de recuperação";
+	}
+	else{
+	    return "está reprovado";
+	}
+}
+
+$atividade = 7.5;
+$prova = 6.5;
+
+$media = retornarMedia($atividade,$prova);
+$status = retornarStatus($media);
+echo "Média final obtida pelo aluno: $media\n";
+echo "Situação do aluno: $status";
+
+/* Retorna: 
+Média final obtida pelo aluno: 6.9
+Situação do aluno: deve fazer prova de recuperação
+*/
 ```
 &nbsp;
-
 &nbsp;
-**Formas de envio de parâmetros**   
+**As formas de envio de parâmetros**   
 ```php
 <?php  
 
 // 1 - Passagem de parâmetros por valor
-function teste($x)
-{
+function teste($x){
     $x += 2;
     echo $x;
 }
@@ -42,13 +82,11 @@ echo $a; # Retorna: 3 (valor da variável $a não foi alterado)
 
 
 // 2 - Passagem de parâmetros por referência
-
-function teste(&$x)
-{
+function teste(&$x){
     $x +=2;
     echo $x;
 }    
 $a = 3;
-teste($a); // retorna: 5
-echo $a; // retorna: 5 (a alteração em $x alterou o valor de $a)
+teste($a); # Retorna: 5
+echo $a; # Retorna: 5 (a alteração em $x alterou o valor de $a)
 ```

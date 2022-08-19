@@ -36,5 +36,5 @@
 &nbsp;   
 :bookmark_tabs: **Referências consultadas para criação deste repositório:**  
 [Documentação do PHP](https://www.php.net/manual/pt_BR/)  
-[Geek for Geeks](https://www.geeksforgeeks.org/)
+[Geek for Geeks](https://www.geeksforgeeks.org/php-tutorials/?ref=ghm)
 </div>

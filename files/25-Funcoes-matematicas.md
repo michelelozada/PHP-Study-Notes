@@ -4,44 +4,75 @@
 &nbsp;
      
 &nbsp;    
+**1 - Calculando uma base elevada à potência do expoente: função `pow()`**
 ```php	
 <?php 
-   
-// 1. Calcula uma base elevada à potência do expoente: função pow()
+
 echo pow(2,3); # Retorna: 8
+```	
+&nbsp;
+&nbsp;  
 		
-		
-// 2. Calcula a raiz quadrada de um dado valor: função sqrt()
+**2 - Calculando a raiz quadrada de um dado valor: função `sqrt()`**
+```php	
+<?php 
+
 echo sqrt(25); # 5
+```
+&nbsp;
+&nbsp;  
+**3 - Retornando somente a parte inteira de uma variável: função `intval()`**
+```php	
+<?php 
 
-
-// 3. Retornando somente a parte inteira de uma variável: função intval()
 echo intval(3.14); # 3
-	
-	
-// 4. Arrendondando valores
+```	
+&nbsp;
+&nbsp;  
+**4 - Arredondando valores para cima: função `ceil()`**  
+```php	
+<?php 
+
 $preco1 = 250.30;
 $preco2 = 257.55;
-	
-// 4.1. Arredonda valores para cima: função ceil()
 echo ceil($preco1);  # 251
+```
+&nbsp;
+&nbsp;  
+**5 - Arredondando valores para baixo: função `floor()`** 
+```php	
+<?php 
 
-
-// 4.2 Arredonda valores para baixo: função floor() 
+$preco1 = 250.30;
+$preco2 = 257.55;
 echo floor($preco1); # 250
+```	
+&nbsp;
+&nbsp;  
+**6 - Arredondando um número float: função `round()`**
+```php	
+<?php 
 
-
-// 4.3. Arredonda um número float: função round()
+$preco1 = 250.30;
+$preco2 = 257.55;
 echo round($preco1); # 250
 echo round($preco2); # 258
-		
-		
-// 5. Retorna o valor absoluto de um número: função abs()
+```	
+&nbsp;
+&nbsp;  
+**7 - Retornando o valor absoluto de um número: função `abs()`**
+```php	
+<?php 
+
 echo abs(-10); # 10
 echo abs(-5.5); # 5.5
-		
-		
-// 6. Gera um número inteiro aleatório: função rand()
+```		
+&nbsp;
+&nbsp;  
+**8 - Gerando um número inteiro aleatório: função `rand()`**
+```php	
+<?php 
+
 echo rand();
 # 1ª saída: 1927646153 | 2ª saída: 513050103 | 3ª saída: 118736831
 		
