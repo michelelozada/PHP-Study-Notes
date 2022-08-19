@@ -9,9 +9,9 @@
 
 // Escreva um programa que some os números compreendidos entre dois números fornecidos (ambos a serem inclusos na soma tb)
 
-function somador($x,$y){
+function somador($x, $y){
     $total = 0;
-    for($c = $x;$c<=$y;$c++){
+    for($c = $x; $c <= $y; $c++){
         $total += $c;
     }
     return $total;
@@ -19,7 +19,7 @@ function somador($x,$y){
 
 $x = 20;
 $y = 26;
-$res = somador($x,$y);
+$res = somador($x, $y);
 echo "O valor da soma dos números compreendidos entre $x e $y (ambos inclusos) é $res.";
 
 # Retorna: O valor da soma dos números compreendidos entre 20 e 26 (ambos inclusos) é 161.
@@ -55,7 +55,7 @@ function retornarStatus($z){
 $atividade = 7.5;
 $prova = 6.5;
 
-$media = retornarMedia($atividade,$prova);
+$media = retornarMedia($atividade, $prova);
 $status = retornarStatus($media);
 echo "Média final obtida pelo aluno: $media\n";
 echo "Situação do aluno: $status";
@@ -66,7 +66,7 @@ Situação do aluno: deve fazer prova de recuperação
 */
 ```
 &nbsp;
-&nbsp;
+&nbsp;    
 **As formas de envio de parâmetros**   
 ```php
 <?php  
@@ -83,7 +83,7 @@ echo $a; # Retorna: 3 (valor da variável $a não foi alterado)
 
 // 2 - Passagem de parâmetros por referência
 function teste(&$x){
-    $x +=2;
+    $x += 2;
     echo $x;
 }    
 $a = 3;
