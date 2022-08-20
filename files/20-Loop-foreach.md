@@ -4,18 +4,16 @@
 &nbsp;
      
 &nbsp;       
+**Exemplo do uso de foreach em um array indexado**
 ```php
 <?php   
-	
-//1. Exemplo do uso de foreach em um array indexado:
 	
 $pedrasPreciosas = ['rubi', 'esmeralda', 'turmalina', 'jade', 'opala', 'safira', 'turquesa', 'ametista'];
 					
 foreach ($pedrasPreciosas as $gemstone){
 	echo $gemstone . "\n";
 }
-	
-	
+		
 /* Retorna:
 Rubi
 Esmeralda
@@ -26,9 +24,13 @@ Safira
 Turquesa
 Ametista
 */
+```
+&nbsp;
+&nbsp; 
 
-
-//2. Exemplo do uso de foreach em um array associativo:
+**Exemplo do uso de foreach em um array associativo:**
+```php
+<?php   
 
 $coresPedras = [  
 			'rubi' => 'vermelha',
@@ -55,10 +57,12 @@ Safira é uma pedra preciosa de cor azul.
 Turquesa é uma pedra preciosa de cor verde.
 Ametista é uma pedra preciosa de cor violeta.
 */
-
-
-
-//3. Exemplo do uso de foreach em um array multidimensional:
+```
+&nbsp;
+&nbsp;  
+**Exemplo do uso de foreach em um array multidimensional**
+```php
+<?php   
 
 $disciplinas = array (
     array("História","sala 04","09:00"),
@@ -83,4 +87,18 @@ O índice [2][0] do array contém: Matemática
 O índice [2][1] do array contém: sala 07
 O índice [2][2] do array contém: 11:00
 */
+```
+&nbsp;
+&nbsp;  
+**Sintaxe alternativa para estrutura de controle `foreach`**
+```php
+<?php
+
+$frutas = ['amora', 'uva', 'caqui', 'laranja'];
+					
+foreach ($frutas as $valor):
+	echo "$valor ";
+endforeach;
+
+# Retorna: amora uva caqui laranja 
 ```

@@ -37,3 +37,23 @@ echo 'O conceito ' . $conceito . ' corresponde à faixa de notas compreendidas e
 
 # Retorna: O conceito C corresponde à faixa de notas compreendidas entre 5.0 a 6.9.
 ```
+&nbsp;  
+**Sintaxe alternativa para estrutura de controle `switch`**
+```php
+<?php
+
+$option = 1;
+
+switch ($option):
+    case 1:
+        echo "Mensagem A";
+        break;
+    case 2:
+        echo "Mensagem B";
+        break;
+    default:
+        echo "Mensagem C";
+endswitch;
+
+# Retorna: Mensagem A
+```

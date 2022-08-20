@@ -53,3 +53,22 @@ $idade = 15;
 $alfabetizado = true;
 // Retorna: Não, você ainda não alcançou a idade mínima (16 anos) para se alistar e votar.
 ```
+&nbsp;
+&nbsp;    
+**Sintaxe alternativa para estrutura de controle `foreach`**
+```php
+<?php  
+
+$n1 = 20; 
+$n2 = 10;
+
+if($n1 > $n2):
+   echo "O primeiro valor é maior que o segundo.";
+elseif($n1 < $n2):
+   echo "O segundo valor é maior que o primeiro.";
+else:
+    echo "Os dois valores são iguais.";
+endif;
+
+# Retorna: O primeiro valor é maior que o segundo.
+```

@@ -14,7 +14,6 @@ $total=0;
 
 echo "Analisando se " . $numero . " é um número primo...";
 echo "Multiplos de " . $numero . ": ";
-
 for($c=1; $c<= $numero ; $c++){
 	if($numero % $c == 0) 
 	{
@@ -45,7 +44,19 @@ Quantidade de múltiplos: 2
 Resultado: É um número primo!
 */
 ```
-&nbsp;
+&nbsp; 
+&nbsp;       
+**Sintaxe alternativa para estrutura de controle `for`**
+```php
+<?php
+
+for($c=0; $c<=40; $c+=5):
+    echo "$c ";
+endfor;
+
+# Retorna: 0 5 10 15 20 25 30 35 40 
+```
+&nbsp; 
 &nbsp; 
 ```php
 <?php 

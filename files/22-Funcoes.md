@@ -17,10 +17,10 @@ function somador($x, $y){
     return $total;
 }
 
-$x = 20;
-$y = 26;
-$res = somador($x, $y);
-echo "O valor da soma dos números compreendidos entre $x e $y (ambos inclusos) é $res.";
+$a = 20;
+$b = 26;
+$res = somador($a, $b);
+echo "O valor da soma dos números compreendidos entre $a e $b (ambos inclusos) é $res.";
 
 # Retorna: O valor da soma dos números compreendidos entre 20 e 26 (ambos inclusos) é 161.
 ```
