@@ -4,72 +4,136 @@
 &nbsp;
      
 &nbsp;     
-
+**1. Verificando se uma variável foi definida: função `isset()`:**  
+*Retornará true se a variável tiver sido declarada e tiver valor diferente de NULL*
 ```php
 <?php
 
-// As variáveis para testes:
 $nome = "Enzo Rossi"; 
-$anoNascimento = 2010; 
-$altura = 1.50; 
-$notas = array(10,9.5,8.0,9.5);
-$serie = '8';
-$alergico = false; 
 $celular = NULL;
 
+var_dump(isset($nome));  # Retorna: true
+var_dump(isset($endereco));  # Retorna: false (variável não existe/não foi configurada)
+var_dump(isset($celular));  # Retorna: false (variável não possui valor)
+```
+&nbsp;
+&nbsp;  
+**2. Verificando se uma variável é vazia: função `empty()`**  
+*Quais são os valores vazios? NULL, 0, false ou string vazia*
+```php
+<?php
 
-// 1. Função isset():
-// Retornará true se a variável tiver sido declarada e tiver valor diferente de NULL
-var_dump(isset($nome)); # true
-var_dump(isset($endereco)); # false (variável não existe/não foi configurada)
-var_dump(isset($celular)); # false (variável não possui valor)
+$celular = NULL;
 
+var_dump(empty($celular));  # Retorna: true
+```
+&nbsp;
+&nbsp;  
+**3. Verificando se uma variável é do tipo string: função `is_string()`**
+```php
+<?php
 
-// 2. Função empty():
-// Quais são os valores vazios? NULL, 0, false ou string vazia
-var_dump(empty($celular)); #true
+$nome = "Enzo Rossi"; 
+$anoNascimento = 2010; 
 
-
-// 3. Função is_string():
-if(is_string($nome)){
+if(is_string($nome)):
 	echo 'Essa variável é do tipo '; 
-}else{
+else:
 	echo 'Essa variável não é do tipo string. É do tipo ';
-}	
-echo gettype($nome) . '.'; # Retorna: Essa variável é do tipo string.
+endif;
+echo gettype($nome) . '.'; 
+
+# Retorna: Essa variável é do tipo string.
 
 
-if(is_string($anoNascimento)){
+if(is_string($anoNascimento)):
 	echo 'Essa variável é do tipo '; 
-}else{
+else:
 	echo 'Essa variável não é do tipo string. É do tipo ';
-}	
-echo gettype($anoNascimento) . '.'; # Essa variável não é do tipo string. É do tipo integer.
+endif;	
+echo gettype($anoNascimento) . '.'; 
 
+# Retorna: Essa variável não é do tipo string. É do tipo integer.
+```
+&nbsp;
+&nbsp;  
+**4. Verificando se uma variável é do tipo inteiro: função `is_int()`**
+```php
+<?php
 
-// 4. Função is_int():
-var_dump(is_int($anoNascimento)); # true
-var_dump(is_int($altura)); # false
+$anoNascimento = 2010; 
+$altura = 1.50; 
 
+var_dump(is_int($anoNascimento));  # Retorna: true
+var_dump(is_int($altura));  # Retorna: false
+```
+&nbsp;
+&nbsp;  
+**5. Verificando se uma variável é do tipo float: função `is_float()`**
+```php
+<?php
 
-// 5. Função is_float():
-var_dump(is_float($altura)); # true
+$altura = 1.50; 
 
+var_dump(is_float($altura));  # Retorna: true
+```
+&nbsp;
+&nbsp;  
+**6. Verificando se uma variável é um número ou uma string numérica: função `is_numeric()`**   
+*Retornará true apenas se se tratar de um número ou de uma string numérica*
+```php
+<?php
 
-// 6. Função is_numeric(): 
-// Retornará true apenas se se tratar de um número ou de uma string numérica 
-var_dump(is_numeric($altura)); # true
-var_dump(is_numeric($serie)); # true
+$altura = 1.50; 
+$serie = '8';
 
+var_dump(is_numeric($altura));  # Retorna: true
+var_dump(is_numeric($serie));  # Retorna: true
+```
+&nbsp;
+&nbsp;  
+**7. Verificando se uma variável é do tipo boolean: função `is_bool()`** 
+```php
+<?php
 
-// 7. Função is_bool(): 
-var_dump(is_bool($vacinado)); # true
+$alergico = false; 
 
+var_dump(is_bool($alergico));  # Retorna: true
+```
+&nbsp;
+&nbsp;  
+**8. Verificando se uma variável é um array: função `is_array()`** 
+```php
+<?php
 
-// 8. Função is_array(): 
-var_dump(is_array($notas)); # true
+$notas = array(10,9.5,8.0,9.5);
 
+var_dump(is_array($notas));  # Retorna: true
+```
+&nbsp;
+&nbsp;  
+**9. Verificando se uma variável é um objeto: função `is_object()`**
+```php
+<?php
 
-// 9. Função is_null():
-var_dump(is_null($celular)); # true
+class Aluno{
+    public $nome;   
+    public function obterNome($nome){
+        $this->nome = $nome;
+    }    
+}    
+
+$aluno1 = new Aluno();
+
+var_dump(is_object($aluno1));  # Retorna: true
+```
+&nbsp;
+&nbsp;  
+**10. Verificando se uma variável é null: função `is_null()`**
+```php
+<?php
+
+$celular = NULL;
+
+var_dump(is_null($celular));  # Retorna: true
 ```
