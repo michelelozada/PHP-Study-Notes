@@ -3,83 +3,118 @@
 > GitHub: @michelelozada
 &nbsp;
      
-&nbsp;     
+&nbsp;    
+**Escopo** diz respeito ao contexto em que uma variável foi definida e como ela pode ser acessada.   
+&nbsp;    
+Dessa forma, uma variável pode ser de **escopo global** ou, senão, de **escopo local**, ou seja, esta última somente poderá ser acessada 
+dentro da função/método onde ela foi declarada. Mas modificar seu escopo de local para global é possível, ao se utilizar a keyword `global`.
+&nbsp;
+     
+&nbsp;      
+**Situação #1**
 ```php
 <?php  
 
-// 1.
-$a = 1; 
+$a = 1;  // Essa é uma variável de escopo global
+
 function verifica(){
-	$a = 3;
+	$a = 3;  // Essa é uma variável de escopo local
 	echo $a; 
 }	
+
 echo $a; # Retorna: 1
-verifica(); # 3
+verifica(); # 3 
 echo $a; # 1
+```
+&nbsp;
+&nbsp;    
 
+**Situação #2**
+```php
+<?php  
 
-// 2.
 $a = 1; 
-function verifica2(){
-	global $a;
+
+function verifica(){
+	global $a;  // Aqui a definição para que esta variável seja de escopo global
 	$a++;
 	echo $a; 
 }	
+
 echo $a; # Retorna: 1
-verifica2(); # 2
+verifica(); # 2
 echo $a; # 2
+```
+&nbsp;
+&nbsp;    
+**Situação #3**
+```php
+<?php  
 
-
-// 3.
 $a = 1;
-function verifica3(){
+
+function verifica(){
 	$a = 3;
 	global $a;
 	echo $a; 
 }	
+
 echo $a; # Retorna: 1
-verifica3(); # 1
+verifica(); # 1
 echo $a; # 1
+```
+&nbsp;
+&nbsp;    
+**Situação #4**
+```php
+<?php  
 
+$a = 1; 
 
-// 4.
-$a = '1'; 
-function verifica4(){
-    global $a;
-    $a = '2'; 
+function verifica(){
+    global $a;  
+    $a = 2; 
     echo $a;
 }
-echo $a; // Retorna: 1
-verifica4(); // Retorna: 2
-echo $a; // Retorna: 2
 
+echo $a; # Retorna: 1
+verifica(); # 2
+echo $a; # 2
+```
+&nbsp;
+&nbsp;    
+**Situação #5**
+```php
+<?php  
 
-// 5.
 $a = 1;
 $b = 2;
-function soma1(){
+
+function soma(){
 	$a = 4;
 	$b = 6;
 	echo $a + $b; 
 }
-echo $a; # Retorna: 1
-echo $b; # 2
-soma1(); # 10
 
+soma(); # Retorna: 10
+```
+&nbsp;
+&nbsp;    
+**Situação #6**
+```php
+<?php  
 
-// 6.
 $a = 1;
 $b = 2;
-function soma2(){
+
+function soma(){
 	$a = 4;
 	$b = 6;
-	global $a,$b;  //* ver nota abaixo
-	echo $a + $b;  //*
+	global $a, $b;  // *ver nota abaixo
+	echo $a + $b;  //*ver nota abaixo
 }
-echo $a; # Retorna: 1
-echo $b; # 2
-soma2(); # 3
 
+soma(); # Retorna: 3
 
-//(*) Obs: as duas linhas destacadas poderiam ser sintetizadas em: echo $GLOBALS['a'] + $GLOBALS['b'];
+//(*) Obs: as duas linhas acima destacadas poderiam ser substituídas por: echo $GLOBALS['a'] + $GLOBALS['b'];
 ```
