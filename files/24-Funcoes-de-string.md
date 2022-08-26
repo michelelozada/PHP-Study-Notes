@@ -10,6 +10,7 @@
 
 $citacao = 'Um pequeno passo para o Homem, um gigantesco passo para a Humanidade'; 
 echo "A string acima tem " . strlen($citacao) . " carateres (com espaço).";  
+
 # Retorna: A string acima tem 69 carateres (com espaço).
 ```
 &nbsp;
@@ -21,6 +22,7 @@ echo "A string acima tem " . strlen($citacao) . " carateres (com espaço).";
 
 $citacao = 'Um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo "A palavra 'passo' aparece " . substr_count($citacao,'passo') . " vezes na string acima.";  
+
 # Retorna: A palavra 'passo' aparece 2 vezes na string acima.
 ```
 &nbsp;
@@ -64,6 +66,7 @@ echo strripos($citacao,'O'); # Retorna: 50
 
 $citacao = 'Um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo strtolower($citacao); 
+
 # Retorna: um pequeno passo para o homem, um gigantesco passo para a humanidade
 ```
 &nbsp;
@@ -74,6 +77,7 @@ echo strtolower($citacao);
 
 $citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo strtoupper($citacao); 
+
 # Retorna: UM PEQUENO PASSO PARA O HOMEM, UM GIGANTESCO PASSO PARA A HUMANIDADE
 ```
 &nbsp;
@@ -84,6 +88,7 @@ echo strtoupper($citacao);
 
 $citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo ucfirst($citacao);
+
 # Retorna: Um pequeno passo para o Homem, um gigantesco passo para a Humanidade
 ```
 &nbsp;
@@ -94,6 +99,7 @@ echo ucfirst($citacao);
 
 $citacao = 'um pequeno passo para o Homem, um gigantesco passo para a Humanidade';
 echo ucwords($citacao);
+
 # Retorna: Um Pequeno Passo Para O Homem, Um Gigantesco Passo Para A Humanidade
 ```
 &nbsp;
@@ -105,6 +111,7 @@ echo ucwords($citacao);
 
 $citacao = "Um pequeno passo para o Homem, um gigantesco passo para a Humanidade";
 echo str_replace("passo", "salto", $citacao);
+
 # Retorna: Um pequeno salto para o Homem, um gigantesco salto para a Humanidade
 ```
 &nbsp;
@@ -116,6 +123,7 @@ echo str_replace("passo", "salto", $citacao);
 
 $citacao = "Um pequeno Passo para o Homem, um gigantesco passo para a Humanidade";
 echo str_ireplace("passo", "salto", $citacao);
+
 # Retorna: Um pequeno salto para o Homem, um gigantesco salto para a Humanidade
 ```
 &nbsp;
@@ -141,6 +149,7 @@ echo substr($citacao,-34,16); # Retorna: gigantesco passo
 <?php
 
 echo str_repeat("-=", 10);
+
 # Retorna: -=-=-=-=-=-=-=-=-=-=
 ```
 &nbsp;
@@ -150,6 +159,7 @@ echo str_repeat("-=", 10);
 <?php
 
 echo strrev("Esta linguagem se chama PHP");
+
 #Retorna: PHP amahc es megaugnil atsE
 ```
 &nbsp;
@@ -196,7 +206,8 @@ echo strlen($nome4); // Retorna: 12 (sem espaço do final)
 $str = "bom dia";
 
 $arr1 = str_split($str);
-/* Retona:
+
+/* Retorna:
 Array
 (
     [0] => B
@@ -207,9 +218,11 @@ Array
     [5] => i
     [6] => a
 )
+
 */
 $arr2 = str_split($str, 3);
-/* Retona:
+
+/* Retorna:
 print_r($arr2);
 Array
 (
@@ -236,39 +249,52 @@ não deixe que o passado
 interfira, não deixe que o
 futuro incomode. (Osho)
 */
-?>
 ```
 &nbsp;
 &nbsp;  
-**19 - Unindo os elementos de um array em uma string: funções `implode()` ou `join()`** 
+**19 - Transformando um array em uma string: funções `implode()` ou `join()`** 
 ```php
 <?php
 	
 $lista = ['laranja', 'maçã', 'abacaxi'];
-$str = implode(" ",$lista);
+$str = implode(", ",$lista);
 echo($str);
-# Retorna: laranja maçã abacaxi
-?>
+# Retorna: laranja, maçã, abacaxi
+
+
+$date = "01-03-2022";
+$newDate = explode("-","$date");
+print_r($newDate);
+
+/* Retorna:
+Array
+(
+    [0] => 01
+    [1] => 03
+    [2] => 2022
+)
+*/
 ```
 &nbsp;
 &nbsp;  
-**20 - Quebrando uma string em um array: função `explode()`**
+**20 - Transformando uma string em um array: função `explode()`**
 ```php
 <?php  
 
-$txt = "Hello Word!";
+$txt = "A persistência traz o êxito";
 $array = explode(" ", $txt);
 print_r($array);
-/* Retonra:
+
+/* Retorna: 
 Array
 (
-    [0] => Hello
-    [1] => Word!
+    [0] => A
+    [1] => persistência
+    [2] => traz
+    [3] => o
+    [4] => êxito
 )
-*/
-
-echo $array[0]; // Retorna: Hello
-echo $array[1]; // Retorna: World!
+/*
 ```
 &nbsp;
 &nbsp;  
@@ -278,13 +304,15 @@ echo $array[1]; // Retorna: World!
 ```php
 <?php
 
-# Retornando o número de palavras encontradas na string
+//Retornando o número de palavras encontradas na string
 print_r(str_word_count("Essa linguagem de programacao se chama PHP", 0));
+
 # Retorna: 7
 
 
-# Retornando um array contendo todas as palavras encontradas na string
+// Retornando um array contendo todas as palavras encontradas na string
 print_r(str_word_count("Essa linguagem de programacao se chama PHP", 1));
+
 /* Retorna:
 Array
 (
@@ -298,8 +326,9 @@ Array
 )
 */
 
-# Retornando um array com a posição em que começa cada palavra da string
+// Retornando um array com a posição em que começa cada palavra da string
 print_r(str_word_count("Essa linguagem de programacao se chama PHP", 2));
+
 /* Retorna:
 Array
 (
@@ -323,6 +352,7 @@ $produto = "pizzas";
 $preco = 90;
 
 printf("Hoje, paguei R$ %.2f comprando %u %s.", $preco, $quantidade, $produto);
+
 # Retorna: Hoje, paguei R$ 90.00 comprando 2 pizzas.
 ```
 &nbsp;
@@ -335,6 +365,7 @@ $divisao = 1900/3;
 echo $divisao; # Retorna: 633.33333333333 
 echo number_format($divisao, 2); # Retorna: 633.33
 // Nota: 1º parâmetro da função: variável; 2º: número de casas decimais a serem exibidas
+	
 	
 $preco = 2800000;
 $formatted_price = 'R$ ' . number_format($preco, 2, ',' , '.');

@@ -7,10 +7,12 @@
 **1. Criando um array multidimensional**
 ```php 
 <?php   
-	
+
+// Exemplo 1
+
 $produtos = array (array(1, "Caneta ABC", 19.99),
-	               array(2, "Caneta XYZ", 24.99),
-	               array(3, "Caneta PQR", 35.99));
+                   array(2, "Caneta XYZ", 24.99),
+                   array(3, "Caneta PQR", 35.99));
 print_r($produtos);
 
 /* Retorna:
@@ -41,13 +43,52 @@ Array
 ```
 &nbsp;
 &nbsp;       
+```php 
+<?php  
+
+// Exemplo 2
+	
+$cidades = array("paranaenses" => array("cidade 1"=>"Curitiba","cidade 2"=>"Ponta Grossa","cidade 3"=>"Foz do Iguaçu"),
+                "catarinenses" => array("cidade 1"=>"Florianópolis", "cidade 2"=>"São Bento do Sul","cidade 3"=>"Blumenal"),
+                "gaúchas" => array("cidade 1"=>"Porto Alegre","cidade 2"=>"Farroupilha","cidade 3"=>"Caxias do Sul"));
+                
+print_r($cidades);
+
+/* Retorna:
+Array
+(
+    [paranaenses] => Array
+        (
+            [cidade 1] => Curitiba
+            [cidade 2] => Ponta Grossa
+            [cidade 3] => Foz do Iguaçu
+        )
+
+    [catarinenses] => Array
+        (
+            [cidade 1] => Florianópolis
+            [cidade 2] => São Bento do Sul
+            [cidade 3] => Blumenal
+        )
+
+    [gaúchas] => Array
+        (
+            [cidade 1] => Porto Alegre
+            [cidade 2] => Farroupilha
+            [cidade 3] => Caxias do Sul
+        )
+)
+*/
+```
+&nbsp;
+&nbsp;     
 **2. Acessando os elementos de um array multidimensional**
 ```php 
 <?php   
 
 // Com base no array do exercício 1 
+
 echo $produtos[2][1]; # Retorna: Caneta PQR
-echo $produtos[1][2]; # 24.99
 ```
 &nbsp;
 &nbsp;  
@@ -56,6 +97,7 @@ echo $produtos[1][2]; # 24.99
 <?php   
 
 // Com base no array do exercício 1 
+
 $produtos[] = array(4,"Caneta RST",39.99);
 print_r($produtos);
 
@@ -99,6 +141,7 @@ Array
 <?php   
 
 // Com base no array do exercício 1 
+
 unset($produtos[2]);
 print_r($produtos);
 
@@ -127,6 +170,7 @@ Array
 <?php   
 
 // Com base no array do exercício 1 
+
 foreach($produtos as $valor){
 	echo "Código: "   . $valor[0] . "\n"; 
 	echo "Produto: "  . $valor[1] . "\n"; 
@@ -147,3 +191,33 @@ Código: 3
 Produto: Caneta PQR
 Preço: R$ 35.99
 */
+```
+&nbsp;
+&nbsp;
+```php 
+<?php   
+
+// Com base no array do exercício 2 
+
+foreach($cidades["paranaenses"] as $key=>$value){
+    echo $key . " : " .$value. "\n";
+}
+foreach($cidades["catarinenses"] as $key=>$value){
+    echo $key. " : " .$value. "\n";   
+}    
+foreach($cidades["gaúchas"] as $key=>$value){
+    echo $key. " : " .$value. "\n";
+}
+
+/* Retorna:
+cidade 1 : Curitiba
+cidade 2 : Ponta Grossa
+cidade 3 : Foz do Iguaçu
+cidade 1 : Florianópolis
+cidade 2 : São Bento do Sul
+cidade 3 : Blumenal
+cidade 1 : Porto Alegre
+cidade 2 : Farroupilha
+cidade 3 : Caxias do Sul
+*/
+```

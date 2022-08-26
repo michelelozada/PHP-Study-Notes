@@ -46,7 +46,7 @@ endif;
 $media = 65;
 
 $status = ($media >= 70) ? 'aprovado': 'reprovado';
-echo 'Status do aluno: ' . (($media >= 70) ? 'aprovado' : 'reprovado');
+echo 'Status do aluno: ' . $status;
 
 # Retorna: Status do aluno: reprovado
 ```
