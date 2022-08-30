@@ -9,9 +9,9 @@
 <?php 
 
 $citacao = 'Um pequeno passo para o Homem, um gigantesco passo para a Humanidade'; 
-echo "A string acima tem " . strlen($citacao) . " carateres (com espaço).";  
+echo "A string acima tem " . strlen($citacao) . " carateres (com espaços).";  
 
-# Retorna: A string acima tem 69 carateres (com espaço).
+# Retorna: A string acima tem 69 carateres (com espaços).
 ```
 &nbsp;
 &nbsp;    
@@ -170,10 +170,10 @@ echo strrev("Esta linguagem se chama PHP");
 
 $nome = "Carlos";
 
-//echo str_pad($nome,15,"*",STR_PAD_RIGHT);
+echo str_pad($nome,15,"*",STR_PAD_RIGHT);
 # Retorna: Carlos*********
 
-//echo str_pad($nome,15,"*",STR_PAD_LEFT);
+echo str_pad($nome,15,"*",STR_PAD_LEFT);
 # Retorna: *********Carlos
 
 echo str_pad($nome,15,"*",STR_PAD_BOTH);

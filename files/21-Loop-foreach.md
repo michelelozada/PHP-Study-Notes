@@ -8,40 +8,43 @@
 ```php
 <?php   
 	
-$pedrasPreciosas = ['rubi', 'esmeralda', 'turmalina', 'jade', 'opala', 'safira', 'turquesa', 'ametista'];
+$pedras = ['rubi', 'esmeralda', 'turmalina', 'jade', 'opala'];
 					
-foreach ($pedrasPreciosas as $gemstone){
-	echo $gemstone . "\n";
+foreach($pedras as $value){
+	echo "$value \n";
 }
 		
 /* Retorna:
-Rubi
-Esmeralda
-Turmalina
-Jade
-Opala
-Safira
-Turquesa
-Ametista
+rubi 
+esmeralda 
+turmalina 
+jade 
+opala 
 */
 ```
 &nbsp;
-&nbsp; 
+&nbsp;  
+**Sintaxe alternativa para estrutura de controle foreach**
+```php
+<?php
 
+$pedras = ['rubi', 'esmeralda', 'turmalina', 'jade', 'opala'];
+					
+foreach($pedras as $value):
+	echo "$value \n";
+endforeach;
+```
+&nbsp;
+&nbsp;  
 **Exemplo do uso de foreach em um array associativo:**
 ```php
 <?php   
 
-$coresPedras = [  
-			'rubi' => 'vermelha',
-			'esmeralda' => 'verde',
-			'turmalina' => 'azul',
-			'jade' => 'verde',
-			'opala' => 'azul',
-			'safira' => 'azul',
-			'turquesa' => 'verde',
-			'ametista' => 'violeta'
-];
+$coresPedras = ['rubi' => 'vermelha',
+                'esmeralda' => 'verde',
+                'turmalina' => 'azul',
+                'jade' => 'verde',
+                'opala' => 'azul'];
 
 foreach($coresPedras as $key => $value){
 	echo ucfirst($key) . ' é uma pedra preciosa de cor ' . $value . ".\n";		
@@ -53,9 +56,6 @@ Esmeralda é uma pedra preciosa de cor verde.
 Turmalina é uma pedra preciosa de cor azul.
 Jade é uma pedra preciosa de cor verde.
 Opala é uma pedra preciosa de cor azul.
-Safira é uma pedra preciosa de cor azul.
-Turquesa é uma pedra preciosa de cor verde.
-Ametista é uma pedra preciosa de cor violeta.
 */
 ```
 &nbsp;
@@ -64,41 +64,28 @@ Ametista é uma pedra preciosa de cor violeta.
 ```php
 <?php   
 
-$disciplinas = array (
-    array("História","sala 04","09:00"),
-    array("Geografia","sala 12","10:00"),
-    array("Matemática ","sala 07","11:00")
-);
+$disciplinas = array(array("História","sala 04","09:00"),
+                     array("Geografia","sala 12","10:00"),
+                     array("Matemática ","sala 07","11:00"));
  
-foreach($disciplinas as $rnumber => $disciplina) {
-	foreach($disciplina as $cnumber => $value) {
-		echo "O índice [" . $rnumber . "][" . $cnumber . "] do array contém: " . $value . ".\n";
-	}
-}
+foreach($disciplinas as $valor){
+    echo "$valor[0]\n";
+    echo "$valor[1]\n";
+    echo "$valor[2]\n";
+    echo "\n";
+}     
  
 /* Retorna:
-O índice [0][0] do array contém: História
-O índice [0][1] do array contém: sala 04
-O índice [0][2] do array contém: 09:00
-O índice [1][0] do array contém: Geografia
-O índice [1][1] do array contém: sala 12
-O índice [1][2] do array contém: 10:00
-O índice [2][0] do array contém: Matemática 
-O índice [2][1] do array contém: sala 07
-O índice [2][2] do array contém: 11:00
+História
+sala 04
+09:00
+
+Geografia
+sala 12
+10:00
+
+Matemática 
+sala 07
+11:00
 */
-```
-&nbsp;
-&nbsp;  
-**Sintaxe alternativa para estrutura de controle `foreach`**
-```php
-<?php
-
-$frutas = ['amora', 'uva', 'caqui', 'laranja'];
-					
-foreach ($frutas as $valor):
-	echo "$valor ";
-endforeach;
-
-# Retorna: amora uva caqui laranja 
 ```

@@ -6,8 +6,10 @@
 &nbsp;    
 **Escopo** diz respeito ao contexto em que uma variável foi definida e como ela pode ser acessada.   
 &nbsp;    
-Dessa forma, uma variável pode ser de **escopo global** ou, senão, de **escopo local**, ou seja, esta última somente poderá ser acessada 
-dentro da função/método onde ela foi declarada. Mas modificar seu escopo de local para global é possível, ao se utilizar a keyword `global`.
+Dessa forma, uma variável pode ser de **escopo global** ou, senão, de **escopo local**, sendo que esta última somente poderá ser acessada 
+dentro da função/método onde ela foi declarada.   
+&nbsp; 
+Para que uma função possa acessar uma variável de fora de seu escopo é necessária a utilização da keyword `global`, conforme exemplos abaixo.
 &nbsp;
      
 &nbsp;      

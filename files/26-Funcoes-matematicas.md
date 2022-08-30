@@ -35,7 +35,9 @@ echo intval(3.14); # 3
 
 $preco1 = 250.30;
 $preco2 = 257.55;
+
 echo ceil($preco1);  # 251
+echo ceil($preco2);  # 258
 ```
 &nbsp;
 &nbsp;  
@@ -45,7 +47,9 @@ echo ceil($preco1);  # 251
 
 $preco1 = 250.30;
 $preco2 = 257.55;
+
 echo floor($preco1); # 250
+echo floor($preco2); # 257
 ```	
 &nbsp;
 &nbsp;  
@@ -55,6 +59,7 @@ echo floor($preco1); # 250
 
 $preco1 = 250.30;
 $preco2 = 257.55;
+
 echo round($preco1); # 250
 echo round($preco2); # 258
 ```	
