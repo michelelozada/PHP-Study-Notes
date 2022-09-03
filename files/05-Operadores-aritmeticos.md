@@ -4,36 +4,87 @@
 &nbsp;
      
 &nbsp;     
+**1. Adição**  
 ```php
 <?php
+
+$a = 4;
+$b = 2;
 	
+echo $a + $b;  # Retorna: 6
+```
+&nbsp;
+&nbsp;    
+**2. Subtração**
+```php
+<?php
+
+$a = 4;
+$b = 2;
+	
+echo $a - $b;  # 2
+```
+&nbsp;
+&nbsp;  
+**3. Multiplicação**  
+```php
+<?php
+
+$a = 4;
+$b = 2;
+	
+echo $a * $b;  # 8
+```
+&nbsp;
+&nbsp;  
+**4. Divisão**   
+*O operador de divisão ("/") sempre retorna um valor com ponto flutuante, a não ser que os dois operandos 
+sejam inteiros (ou strings que são convertidas para inteiros) e números inteiramente divisíveis, nesse caso
+um inteiro é retornado. Para divisão de inteiros, veja `intdiv()`.* (Da documentação do PHP)
+```php
+<?php
+
+$a = 4;
+$b = 2;
+	
+echo $a / $b;  # 2
+```
+&nbsp;
+&nbsp;  
+**6. Módulo**  
+*Operandos de módulo são convertidos para inteiros (removendo a parte decimal) antes do processamento. Para
+módulos de ponto flutuante, veja `fmod()`.* (Da documentação do PHP)
+```php
+<?php
+
+$a = 4;
+$b = 2;
+	
+echo $a % $b;  # 0 
+```
+&nbsp;
+&nbsp;  
+
+**7. Exponencial**
+```php
+<?php
+
+$a = 4;
+$b = 2;
+	
+echo $a ** $b; # 16
+```
+&nbsp;
+&nbsp;  
+
+**8. Negação**   
+*Retorna o oposto/inverte o valor de uma variável*
+```php
+<?php
+
 $a = 4;
 $b = 2;
 
-// 1. Adição
-echo $a + $b;  # Retorna: 6
-
-
-// 2. Subtração
-echo $a - $b;  # 2
-
-
-// 3. Multiplicação
-echo $a * $b;  # 8
-
-
-// 4. Divisão (retorna valor decimal real)
-echo $a / $b;  # 2
-
-
-// 6. Módulo (retorna o resto da divisão)
-echo $a % $b;  # 0 
-
-
-// 7. Exponencial
-echo $a ** $b; # 16
-
-
-// 8. Negação (retorna o oposto)
 echo -$a;  # -4
+echo -$b;  # -2
 ```
