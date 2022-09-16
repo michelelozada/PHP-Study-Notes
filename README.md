@@ -30,12 +30,13 @@
 | [24](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/24-Funcoes-de-string.md) | Funções de string |
 | [25](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/25-Funcoes-para-arrays.md) | Funções para arrays |
 | [26](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/26-Funcoes-matematicas.md) | Funções matemáticas |
-| [27](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/27-Funcoes-data-hora.md) | Funções de data e hora |
-| [28](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/28-Funcoes-manipulacao-variaveis.md) | Funções para manipulação de variáveis |
-| [29](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/29-Estrutura-Try-Catch-Finally.md) | Estrutura Try-Catch-Finally |
+| [27](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/27-Estrutura-Try-Catch-Finally.md) | Estrutura Try-Catch-Finally |
 
 &nbsp;   
-:bookmark_tabs: **Referências consultadas para criação deste repositório:**  
-[Documentação do PHP](https://www.php.net/manual/pt_BR/)  
-[Geek for Geeks](https://www.geeksforgeeks.org/php-tutorials/?ref=ghm)
+**Referências consultadas para criação deste repositório:**
+&nbsp;
+| Link | Nome |
+| :---:  | :---	|
+| [:bookmark_tabs:](https://www.php.net/manual/pt_BR/) | Documentação do PHP |
+| [:bookmark_tabs:](https://www.geeksforgeeks.org/php-tutorials/?ref=ghm) | Geek for Geeks |
 </div>
