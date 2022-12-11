@@ -33,11 +33,11 @@ Seguem abaixo os principais operadores, estando os de maior precedência no topo
 
 $a = 10;
 $b = 50;
-$d = 2;
+$c = 2;
 $p = true;
 $q = false;
 
-echo ($b + $a) /$d;  # Retorna: 30
+echo ($b + $a) /$c;  # Retorna: 30
 echo ++$a * $c;  # 22
 echo ($a < 5) && $b != 50;  # false
 echo $p || $q && !$q;  # true
