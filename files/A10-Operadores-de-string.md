@@ -20,3 +20,9 @@ $nome  = "Carlos";
 $nome .= " Henrique Portella Filho";
 echo $nome; # Retorna: Carlos Henrique Portella Filho
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

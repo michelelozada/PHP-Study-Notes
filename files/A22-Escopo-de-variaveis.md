@@ -120,3 +120,9 @@ soma(); # Retorna: 3
 
 //(*) Obs: as duas linhas acima destacadas poderiam ser substituídas por: echo $GLOBALS['a'] + $GLOBALS['b'];
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

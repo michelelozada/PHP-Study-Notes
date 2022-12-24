@@ -128,3 +128,9 @@ echo "O processo foi protocolado em ".date('d/m/Y' .'à\s'. 'h:i:s', $data);
 
 # O processo foi protocolado em 01/09/2022 às 02:30:10
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

@@ -85,3 +85,9 @@ echo rand();
 echo rand(1,10);
 # 1ª saída: 6 | 2ª saída: 9 | 3ª saída: 3
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

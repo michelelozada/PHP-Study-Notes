@@ -61,3 +61,9 @@ session_unset();
 # Destruindo a sessão atual
 session_destroy();
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

@@ -184,3 +184,9 @@ session_destroy();
 
 header('Location: index.php');
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

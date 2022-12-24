@@ -106,3 +106,10 @@ endif;
 [^1]: Com ajuda do conteúdo dos posts **Expressões regulares no PHP**, disponível 
 [neste link](http://www.diogomatheus.com.br/blog/php/expressoes-regulares-no-php/) e 
 **Expressões Regulares(regex) em PHP**, disponível [neste link](https://www.botecodigital.dev.br/php/expressoes-regulares-regex-php/).
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>
+
+&nbsp;

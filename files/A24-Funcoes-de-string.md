@@ -372,3 +372,9 @@ $formatted_price = 'R$ ' . number_format($preco, 2, ',' , '.');
 echo $formatted_price; # Retorna: R$ 2.800.000,00
 // Nota: 1º parâmetro da função: variável; 2º: número de casas decimais a exibir; 3º: símbolo para separar casa decimal; 4º: símbolo para separar o milhar
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

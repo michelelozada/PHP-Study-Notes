@@ -90,3 +90,9 @@ $a = 3;
 teste($a); # Retorna: 5
 echo $a; # Retorna: 5 (a alteração em $x alterou o valor de $a)
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

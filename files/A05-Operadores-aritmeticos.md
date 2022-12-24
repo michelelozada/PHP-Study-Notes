@@ -88,3 +88,9 @@ $b = 2;
 echo -$a;  # -4
 echo -$b;  # -2
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

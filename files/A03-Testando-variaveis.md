@@ -137,3 +137,9 @@ $celular = NULL;
 
 var_dump(is_null($celular));  # Retorna: true
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

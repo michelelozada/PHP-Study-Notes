@@ -52,3 +52,9 @@ echo gettype($var); # Retorna: string
 settype($var, 'integer');
 echo gettype($var); # Retorna: integer
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

@@ -176,3 +176,9 @@ DateInterval Object
 print_r('O intervalo de tempo decorrido de uma data informada para outra é de '. $intervalo->format('%r%a') . ' dias.');
 # Retorna: O intervalo de tempo decorrido de uma data informada para outra é de -577 dias.
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

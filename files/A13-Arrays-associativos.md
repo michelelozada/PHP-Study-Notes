@@ -168,3 +168,9 @@ echo($json);
 
 # Retorna: {"aluno":"Enzo Martins","0":{"email":"enzo@email.com","celular":"419999-9999"}} 
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

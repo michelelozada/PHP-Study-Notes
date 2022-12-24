@@ -113,3 +113,9 @@ $professor->cadastrarUsuario();
 $professor->consultaDisciplina();
 # Retorna: O professor João Mattos leciona a disciplina Engenharia de Software.
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

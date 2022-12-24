@@ -107,3 +107,9 @@ $destino = "cidade";
 $$destino = "Curitiba"; # esta é a variável diNãmica
 echo $cidade; # Retorna: Curitiba
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

@@ -91,3 +91,9 @@ for($i = 0; $i < count($churrasco); $i++){
 5- queijo coalho
 */
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

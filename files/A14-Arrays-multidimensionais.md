@@ -221,3 +221,9 @@ cidade 2 : Farroupilha
 cidade 3 : Caxias do Sul
 */
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

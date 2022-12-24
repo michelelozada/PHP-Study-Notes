@@ -138,3 +138,9 @@ endif;
 
 # Retorna: Lamentamos, mas sem apresentar o comprovante, você não pode entrar no salão.
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

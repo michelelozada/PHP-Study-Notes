@@ -111,3 +111,9 @@ To-Do List para o dia 22-06-2022:
  . Task nº 5: Solicitar feedback sobre o design
 */
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>

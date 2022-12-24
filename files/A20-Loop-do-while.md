@@ -103,3 +103,9 @@ else
 
 # Retorna: O fatorial de 5 é 120.
 ```
+
+&nbsp;
+
+<div align="center">
+<a href="https://github.com/michelelozada/PHP-Study-Notes">[Voltar à tela inicial do repositório]</a>
+</div>
