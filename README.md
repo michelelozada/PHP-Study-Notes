@@ -1,7 +1,13 @@
 <div align="center">
 	<img src="./assets/php.png">
-	<h1>Lógica de Programação e Algoritmos em PHP</h1>
+	<h1>PHP - Notas de estudo</h1>
+	
+[Lógica de Programação](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP#lógica-de-programação) &nbsp;•&nbsp; 
+[Temas Gerais](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP#temas-gerais) &nbsp;•&nbsp; 
+[PHP Orientado a Objetos](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP#php-orientado-a-objetos)
 
+&nbsp;
+### Lógica de Programação	
 | Índice | Descrição |
 | :---:  | :--- |
 | [01](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/01-Tipos-de-variaveis.md) | Tipos de variáveis |
@@ -32,11 +38,44 @@
 | [26](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/26-Funcoes-matematicas.md) | Funções matemáticas |
 | [27](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/blob/main/files/27-Estrutura-Try-Catch-Finally.md) | Estrutura Try-Catch-Finally |
 
+&nbsp;  
+### Temas gerais
+| Índice | Descrição |
+| :---:  | :---		 |
+| [01](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/A1-Variaveis-superglobais.md) | Variáveis superglobais |
+| [02](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/A2-Sessoes.md) | Sessões |
+| [03](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/A3-Upload-de-arquivos.md) | Upload de arquivos com o método POST |
+| [04](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/A4-Filtros-validacao-limpeza.md) | Filtros de validação e limpeza |
+| [05](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/A5-Criando-sistema-login.md) | Criando um sistema de login |
+| [06](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/A6-Gerando-hashes.md) | Funções para gerar hashes no PHP |
+| [07](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/A7-Include-e-require.md) | Funções para inclusão de arquivos |
+| [08](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/A8-Funcoes-data-e-hora-I.md) | Funções de data e hora (I) |
+| [09](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/A9-Funcoes-data-e-hora-II.md) | Funções de data e hora (II) |
+| [10](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/A10-Funcoes-manipulacao-arquivos.md) | Funções para manipulação de arquivos |
+| [11](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/A11-Expressoes-regulares.md) | Expressões regulares no PHP |
+
+&nbsp;  
+### PHP Orientado a Objetos
+| Índice | Descrição |
+| :---:  | :---		 |
+| [01](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/B1-Classes-e-objetos.md) | Classes, objetos, atributos e métodos |
+| [02](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/B2-Metodo-get-e-set.md)  | Métodos Get e Set                     |
+| [03](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/B3-Metodo-construtor.md) | Método Construtor                     |
+| [04](https://github.com/michelelozada/PHP-Study-Notes/blob/main/files/B4-Heranca.md)           | Herança                     |
+
 &nbsp;   
-**Referências consultadas para criação deste repositório:**
-&nbsp;
-| Link | Nome |
-| :---:  | :---	|
-| [:bookmark_tabs:](https://www.php.net/manual/pt_BR/) | Documentação do PHP |
-| [:bookmark_tabs:](https://www.geeksforgeeks.org/php-tutorials/?ref=ghm) | Geek for Geeks |
+ <details>
+ <summary><strong>Clique aqui para ver as referências consultadas para criação deste repositório</strong></summary>
+
+  &nbsp;
+  &nbsp;   
+  [Documentação do PHP](https://www.php.net/manual/pt_BR/)    
+  [Geek for Geeks](https://www.geeksforgeeks.org/php-tutorials/?ref=ghm)   
+  [Object-Oriented PHP for Beginners](https://code.tutsplus.com/tutorials/object-oriented-php-for-beginners--net-12762?ec_unit=translation-info-language)   
+  [PHP-FIG](https://www.php-fig.org/)   
+  [PHP The Right Way](https://phptherightway.com/)   
+ </details>
+
+&nbsp;    
+[[Voltar ao topo]](https://github.com/michelelozada/Logica-de-Programacao-e-Algoritmos-em-PHP/new/main#php---notas-de-estudo)
 </div>
