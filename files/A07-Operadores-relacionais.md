@@ -39,8 +39,16 @@ echo(4 !== 4);  # Retorna: false
 echo(4 !== '4'); # true
 ```
 &nbsp;
-&nbsp;    
-**5 - Menor que (`<`)**
+&nbsp;  
+**5 - Maior que (`>`)**
+```php
+<?php 
+
+echo(2.5 > 10); # Retorna: false
+```
+&nbsp;
+&nbsp;   
+**6 - Menor que (`<`)**
 ```php
 <?php 
 
@@ -48,7 +56,7 @@ echo(2.5 < 10); # Retorna: true
 ```
 &nbsp;
 &nbsp;    
-**6 - Maior ou igual a (`>=`)**
+**7 - Maior ou igual a (`>=`)**
 ```php
 <?php 
 
@@ -57,7 +65,7 @@ echo(5.0 >= 5); # true
 ```
 &nbsp;
 &nbsp;    
-**7 - Menor ou igual a (`<=`)**
+**8 - Menor ou igual a (`<=`)**
 ```php
 <?php 
 
@@ -66,7 +74,7 @@ echo(10 <= 10.0); # true
 ```
 &nbsp;
 &nbsp;    
-**8 - Operador spaceship (`<=>`)**  
+**9 - Operador spaceship (`<=>`)**  
 *"O operador spaceship é utilizado para comparar duas expressões. Ele retorna -1, 0 ou 1 quando $a for respectivamente
 menor que, igual a ou maior que $b. As comparações são feitas de acordo com as já conhecidas regras de comparação de
 tipos do PHP"*. (Da documentação do PHP)
@@ -83,7 +91,7 @@ echo 'b' <=> 'a'; # 1
 ```
 &nbsp;
 &nbsp;    
-**9 - Comparando strings**
+**10 - Comparando strings**
 ```php
 <?php 
 
@@ -94,7 +102,7 @@ echo('dia' == 'dia'); # true
 ```
 &nbsp;
 &nbsp;    
-**10 - Outro exemplo**
+**11 - Outro exemplo**
 ```php
 <?php 
 
